@@ -1,0 +1,5 @@
+.featurette{
+    margin-top:2rem;margin-bottom:2rem}
+.featurette-heading{color:#55595c;font-weight:900;text-transform:uppercase}
+.featurette-text{color:#55595c;font-size:1.1rem}@media (min-width: 768px)
+        {.featurette{height:8rem;margin-top:0;margin-bottom:3rem}        }
