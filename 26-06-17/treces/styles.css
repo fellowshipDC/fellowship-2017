@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #292929;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background: url('http://reactivex.io/assets/reactivex_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 06px 5px;
+    text-decoration: none;
+}
+
+li img {
+    display: block;
+    padding: 10px 0px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #939393;
+}
