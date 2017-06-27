@@ -15,15 +15,17 @@
     color: black;
     padding: 10px 16px;
     font-size: 100%;
+    margin:15px
 }
 
 .carrusel{
     width: 100%;
-    height: 40px;
+    height: 200px;
 }
 
 .col-xs-4 .col-md-4{
 text-align: center;
+text-justify: center;
 }
 
 .HeadLine {
@@ -33,13 +35,21 @@ text-align: center;
 
 img {
     vertical-align: center;
-    margin: 5 0 5px;
+    margin: 5 5 5 5px;
     width: auto;
     height: auto;
 }
 
 p {
-    color: white;
+    color: black;
     margin:10px;
     text-justify: justified;
+}
+
+.text {
+color:white;
+}
+
+.image-responsive {
+    margin: 0 auto;
 }
