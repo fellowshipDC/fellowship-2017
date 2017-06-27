@@ -1,0 +1,51 @@
+
+.button {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    border: 1px;
+    font-size: 100%;
+}
+.carrusel{
+    width: 100%;
+    height: 40px;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-center
+{
+   position: absolute;
+   width: 100%;
+   left: 0;
+   text-align: center;
+   margin: auto;
+}
+#notice{
+    width: 50px;
+}
+.image-background{
+    background-image: url("https://www.typescriptlang.org/assets/images/foreground_bluprint.svg");
+}
+.imgages {
+    background-color: transparent; 
+    background-image:  url("https://mdn.mozillademos.org/files/11991/startransparent.gif"), 
+                     url("https://mdn.mozillademos.org/files/7693/catfront.png");
+  
+     width: 100%;
+     height: 40%;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
