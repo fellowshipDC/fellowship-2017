@@ -1,0 +1,54 @@
+.carrusel{
+    width: 100%;
+    height: 40px;
+}
+ .imgicon {
+   width: : 50px;
+   height:50px;
+ }
+
+ .textbox {
+   padding:12px;
+   background-color:#152740;;
+   line-height:1.4;
+   color: white;
+ }
+
+ .yellowsub {
+   color: #FFA700;
+   font-size: 24px;
+ }
+ h4 {
+   font-size: 35px;
+   color: #152740;
+   font-weight: lighter;
+ }
+
+ .uppersub {
+   font-size: 16px;
+   color: #152740;
+   font-weight: bold;
+ }
+ .containerNew {
+  background-color: #e6e6e6;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.border-right {
+    border-right: 1px solid grey;
+}
+.sub {
+  color: #0c3645;
+  font-size: 25px;
+}
+
+.containerFoot {
+  background-color: ##0b2f3d;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
