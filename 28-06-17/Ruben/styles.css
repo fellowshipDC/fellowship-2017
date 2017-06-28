@@ -1,0 +1,57 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-md-6 i {
+    color: white;
+}
+p {
+    color:white;
+    size:10px;
+}
+
+img {
+    height: 25%;
+    width:  25%;
+}
+
+.about {
+  height: 200px;
+  background-color: black;  
+}
+
+.navbar-upper {
+  height: 65px;
+  background-color: black; 
+}
+
+h3 {
+    color:white;
+}
+h4 {
+    color:white;
+}
+h2 {
+    color:white;
+}
+.build-app  {
+    background-color:#10ACC2;
+    width: 300px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    width: 100%;
+    text-justify: center;
+}
+button {
+background-color: black;
+color:white; 
+}
+.Users {
+    color: black;
+    background-color: white;
+}
