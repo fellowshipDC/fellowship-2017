@@ -10,3 +10,10 @@
 .footer .row .col-6 i {
     color: white;
 }
+
+
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+}
+
