@@ -1,0 +1,81 @@
+.intro-background {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #10ACC2;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    color: white;
+    padding-bottom: 50px;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.ul .li {
+    color: white;
+}
+
+.texto-intro {
+    color: white;
+    font-size: 1em;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-family: proxima-nova-soft, Helvetica, Arial, sans-serif;
+    align-content: center;
+}
+
+.btn-inicial {
+    font-family: proxima-nova-soft, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    background: #001c20;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    margin: 20px auto 50px;
+    align-content: center;
+}
+
+.calamar {
+    background-color: #10ACC2;
+    align-content: center;
+}
+
+.texto-about {
+    color: #4b4b4b;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    align-content: center;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.characteristics {
+    color: #757575;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    height: 160px;
+}
+
+.features-link {
+    font-family: proxima-nova-soft, Helvetica, Arial, sans-serif;
+    color: #10ACC2;
+    text-align: center;
+}
+
+.navtabs {
+    margin-right: -15px;
+    float: right;
+}
