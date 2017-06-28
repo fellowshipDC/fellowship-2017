@@ -1,0 +1,29 @@
+.button {
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    border: 1px;
+    font-size: 100%;
+}
+
+.carrusel {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.blackbody {
+    background-color: black;
+}
+
+.blackbody-text {
+    -webkit-text-fill-color: white;
+    -moz-text-decoration-color: white;
+}
