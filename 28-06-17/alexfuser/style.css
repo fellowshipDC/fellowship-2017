@@ -1,0 +1,60 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+
+
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+}
+.logo{
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 25px;
+}
+
+.header{
+	background-color:  #10ACC2;
+}
+.header-container{
+	max-width: 992px;
+	margin: 0 auto;
+	width: 90%;
+
+}
+.logo-container{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	position: relative;
+}
+.notice{
+	font-family: Lato,Helvetica,Arial,sans-serif;
+background-color: #FFF;
+height: 50px;
+border-bottom: 1px solid #ebebeb;
+
+}
+.cintilla{
+	padding: 15px 0;
+}
+.about-container{
+	max-width: 992px;
+margin: 0 auto;
+width: 90%;
+position: relative;
+padding-top: 100px;
+padding-bottom: 50px;
+
+}
