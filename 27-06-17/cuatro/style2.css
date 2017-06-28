@@ -1,0 +1,23 @@
+body {
+	font-family: 'Josefin Slab', serif;
+}
+
+
+.cont-back {
+	background-color: #152740;
+	padding: 40px;
+}
+
+.orange-let {
+	color: #ffa700;
+	text-align: center;
+	font-size:16px;
+
+}
+.white-let {
+	color: white;
+	text-align: left;
+	font-size: 12px;
+
+}
+

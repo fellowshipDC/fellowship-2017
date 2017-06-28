@@ -1,3 +1,53 @@
+ .imgicon {
+   width: : 50px;
+   height:50px;
+ }
+
+ .textbox {
+   padding:12px;
+   background-color:#152740;;
+   line-height:1.4;
+   color: white;
+ }
+
+ .yellowsub {
+   color: #FFA700;
+   font-size: 24px;
+ }
+ h4 {
+   font-size: 35px;
+   color: #152740;
+   font-weight: lighter;
+ }
+
+ .uppersub {
+   font-size: 16px;
+   color: #152740;
+   font-weight: bold;
+ }
+ .containerNew {
+  background-color: #e6e6e6;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.border-right {
+    border-right: 1px solid grey;
+}
+.sub {
+  color: #0c3645;
+  font-size: 25px;
+}
+
+.containerFoot {
+  background-color: ##0b2f3d;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .button {
     width: 300px;
@@ -9,15 +59,52 @@
     border: 1px;
     font-size: 100%;
 }
-.carrusel{
-    width: 100%;
-    height: 40px;
-}
-
 
 .img-style {
     width: 100px;
     height: 100px;
 }
 
+.btn {
+    background: #FFA700;
+    color: black;
+    padding: 10px 16px;
+    font-size: 100%;
+    margin:15px
+}
 
+.carrusel{
+    width: 100%;
+    height: 200px;
+}
+
+.col-xs-4 .col-md-4{
+text-align: center;
+text-justify: center;
+}
+
+.HeadLine {
+color: yellow;
+text-align: center;
+}
+
+img {
+    vertical-align: center;
+    margin: 5 5 5 5px;
+    width: auto;
+    height: auto;
+}
+
+p {
+    color: black;
+    margin:10px;
+    text-justify: justified;
+}
+
+.text {
+color:white;
+}
+
+.image-responsive {
+    margin: 0 auto;
+}
