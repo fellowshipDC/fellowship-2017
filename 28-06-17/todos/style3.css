@@ -1,24 +1,44 @@
 
 body {
     font-family: Lato, sans-serif;
+    font-style: 400;
 }
 h1 {
     color: white;
     font-size: 30px;
 }
 
-h4{
+h3 {
+    color: #4E5052;
+    font-size: 25px;
+
+}
+
+h4 {
     color: #c4e3e8;
     font-size: 20px;
+}
+
+h6 {
+    color: #4E5052;
+    font-size: 18;
+    font-style: bold;
+    text-align: center;
+
+}
+
+.ghr {
+    color: #10bcc2;
+    font-style: bold;
 }
 .footer {
     height: 200px;
     background-color: black;
+    width: 100%;
+    position: relative;
 }
 
-.footer .row {
-    height: 200px;
-}
+
 
 .footer .row .col-6 i {
     color: white;
@@ -41,6 +61,37 @@ h4{
     background-color: #10acc2;
     overflow: scroll;
     padding: 50px 100px;
-
-
 }
+
+.pf-container {
+    background-color: #10acc2;
+     height: 430px;
+     text-align: center;
+     align-items: center;
+    padding: 100px;
+ }
+
+.cnt {
+    overflow: hidden;
+}
+
+.conto {
+    font-weight: 300 !important;
+    font-family: Lato !important;
+    color: grey !important;
+}
+.contt {
+    width: 150px;
+    padding: 100px;
+}
+
+
+#pngs {
+    width: : 120;
+    height: 87;
+}
+
+
+    .align{
+    align-items: center;    
+    }
