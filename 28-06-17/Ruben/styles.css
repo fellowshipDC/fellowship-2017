@@ -1,10 +1,22 @@
 .footer {
     height: 200px;
-    background-color: black;
+    background-color: #001C20;
+    align-content: right;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 100%;
+    padding-block-end: 60px;
+    padding-block-start: 60px;
 }
 
 .footer .row {
     height: 200px;
+}
+
+.fa {
+    align-items: right;
+    padding-top: 60px;
+    padding-left: 30px;
 }
 
 .footer .row .col-md-6 i {
@@ -22,12 +34,14 @@ img {
 
 .about {
   height: 200px;
-  background-color: black;  
+  background-color: #001C20; 
+  padding: 40 40 40 45px; 
 }
 
 .navbar-upper {
   height: 65px;
-  background-color: black; 
+  background-color: #001C20; 
+  padding: 15 15 15 15px;
 }
 
 h3 {
@@ -39,19 +53,119 @@ h4 {
 h2 {
     color:white;
 }
+.Users h2 {
+    color:black;
+    padding-left: 32px;
+}
+
+.Users p {
+    color: #757575;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-right: 125px;
+    padding-left: 32px;
+    padding-block-start: 100px;
+}
+
 .build-app  {
     background-color:#10ACC2;
-    width: 300px;
+    width: 250px;
     padding-top: 125px;
     padding-bottom: 125px;
     width: 100%;
-    text-justify: center;
+    display: block;
+    text-align: center !important;
 }
+.build-app p  {
+    color: #FFF;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.build-app h3 {
+    color: #FFF;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 button {
 background-color: black;
 color:white; 
 }
+
+.btns {
+    padding: 40 80 40 80px;
+    color: white;
+}
 .Users {
-    color: black;
+    color: #001C20;
     background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-block-start: 60px;
+    padding-block-end: 60px;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+}
+
+.image-users{
+    width: 70%;
+    height: 70;
+    align-self: left;
+    padding-left: 45px;
+}
+.image-header{
+    width: 106;
+    height: 40;
+}
+
+.image-wel {
+    width:674px;
+    height: 250;
+    padding-bottom: 30px;
+
+}
+.btn-flag {
+    border-radius: 10px;
+    background-color: #10ACC2;
+}
+
+.source {
+    background-color: #ebebeb;
+    margin-left: 210px;
+    margin-right: 210px;
+    border-radius: 15px;
+}
+.source img {
+    height: 163;
+    width: 160;
+}
+.source p h3 {
+  padding-left: 120;
+  padding-right: 120;
+}
+.custom-select {
+    margin-left: 10px;
+    margin-top: 7px;
+    height: 30px;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+    border-color: #10ACC2;
+    background-color: #ebebeb;
+    width: 120px;
+}
+.listbox img{
+    height: 296;
+    widows: 114;
 }
