@@ -1,5 +1,5 @@
 .footer {
-    height: 200px;
+    height: 300px;
     background-color: #001C20;
     align-content: right;
     padding-left: 40px;
@@ -10,13 +10,14 @@
 }
 
 .footer .row {
-    height: 200px;
+    height: 300px;
 }
 
 .fa {
     align-items: right;
     padding-top: 60px;
     padding-left: 30px;
+    color: white;
 }
 
 .footer .row .col-md-6 i {
@@ -33,9 +34,9 @@ img {
 }
 
 .about {
-  height: 200px;
+  height: 300px;
   background-color: #001C20; 
-  padding: 40 40 40 45px; 
+  padding: 20 20 20 25px; 
 }
 
 .navbar-upper {
@@ -168,4 +169,10 @@ color:white;
 .listbox img{
     height: 296;
     widows: 114;
+}
+.logo-bottom {
+    padding-left: 150px;
+}
+.logo-bottom {
+
 }
