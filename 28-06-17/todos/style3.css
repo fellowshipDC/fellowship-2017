@@ -1,0 +1,46 @@
+
+body {
+    font-family: Lato, sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+h4{
+    color: #c4e3e8;
+    font-size: 20px;
+}
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+
+.blackbck-whitetxt {
+	background-color: black;
+	color: white;
+}
+
+.btn-xlarge {
+    padding: 16px 40px;
+    font-size: 14px;
+    line-height: normal;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+.banner-container {
+    background-color: #10acc2;
+    overflow: scroll;
+    padding: 50px 100px;
+
+
+}
