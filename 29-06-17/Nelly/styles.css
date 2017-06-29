@@ -1,0 +1,221 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+
+.checkout {
+  font-family: Montserrat,Helvetica,Arial,sans-serif;
+  background-color: #FFF;
+  height: 50px;
+  border-bottom: 1px solid #ebebeb;
+  margin-left: 152px;
+  margin-right: 152px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h2{
+color: #4b4b4b;
+font-family:Lato,Helvetica,Arial,sans-serif;
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.pabout {
+  color: #757575;
+  font-family:Lato,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  max-width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.blue {
+  background-color: #10ACC2;
+}
+
+.mainPadding{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.mainMargin {
+  margin-left: 221px;
+  margin-right: 221px;
+  text-align: center;
+  color: white;
+  font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.imgMargin{
+
+  text-align: center;
+  position: relative;
+}
+.headButton{
+  cursor: pointer;
+  color: white;
+  background: black;
+  font-size: 20px;
+  padding: 12px 25px 12px 12px;
+  text-align: center;
+  font-weight: 700;
+  font-family: helvetica;
+  border-radius: 3px;
+  margin: 20px 155px 50px 155px;
+  width: 240px;
+  border: none;
+}
+
+.ul {
+  list-style: none;
+}
+
+.iconsets {
+  height: 120px;
+
+}
+
+h5 {
+  color: #4b4b4b;
+}
+.col {
+  box-sizing: border-box;
+	width: 50%;
+
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+
+}
+
+p {
+  color: #757575;
+}
+.features {
+  margin-left: 152px;
+  margin-right: 152px;
+}
+
+hr {
+  box-sizing: border-box;
+    border-top: none;
+    border-bottom: 1px solid #ebebeb;
+    border-left: none;
+    border-right: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    padding-top: 50px;
+}
+
+.users {
+  margin-left: 152px;
+  margin-right: 152px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+h3 {
+  color: #4b4b4b;
+}
+.blue2 {
+  background-color: #10ACC2;
+  color: #FFF;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  font-family: Lato, sans-serif;
+  
+}
+.whitetext {
+  color: white;
+  text-align: center;
+}
+
+.Install{
+  color: white;
+  background-color: black;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 12px 25px 12px 25px;
+  margin-left: 5px;
+  font-weight: 700;
+  border-radius: 7px;
+  width: 230px;
+}
+.Read {
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 12px 25px 12px 25px;
+  font-weight: 700;
+  border-radius: 7px;
+  width: 230px;
+}
+
+.buildApp {
+  margin: 20px 155px 12px  155px;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+}
+.list-logos{
+	max-width: 992px;
+	margin: 0 auto;
+	width: 90%;
+
+}
+.list-logos-container{
+	padding-top: 100px;
+}
+.col-left{
+	padding-right: 70px;
+}
+
+.col-middle{
+	padding-left: 35px;
+padding-right: 35px;
+}
+.col-right{
+	padding-left: 70px;
+}
+.col-list-logos{
+	box-sizing: border-box;
+	width: 33.33333333%;
+	position: relative;
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+}
+
+.cinta i{
+
+right: 0;
+top: 2px;
+font-size: 30px;
+}
+.prefooter {
+    height: 300px;
+    background-color: black;
+}
