@@ -1,0 +1,35 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+.bg-1 {
+	background-color: #10ACC2;
+	font-family: Helvetica,Arial,sans-serif;
+	color: white;
+	padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.btn-1 {
+	background-color: black;
+	color: white;
+}
+.banner {
+	width: 90%;
+    background-color: white;
+}
+
+.bg-3 {
+	background-color: white;
+	max-width: 992px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
