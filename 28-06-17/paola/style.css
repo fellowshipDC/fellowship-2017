@@ -1,6 +1,9 @@
 .footer {
     height: 200px;
     background-color: black;
+    padding-top: 75px;
+    position: relative;
+    color: white;
 }
 
 .footer .row {
@@ -32,4 +35,35 @@
 	max-width: 992px;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.bg-4 {
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 70px;
+}
+
+.bg-5 .row .col-6 {
+    width: 90%;
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.bg-7 {
+	background-color: #10ACC2;
+	font-family: Helvetica,Arial,sans-serif;
+	color: white;
+	padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.logo_sails {
+	width:100px;
+	height:auto;
+}
+
+.despegable {
+	color: white;
 }
