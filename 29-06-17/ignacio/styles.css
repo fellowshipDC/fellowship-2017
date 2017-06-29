@@ -1,0 +1,364 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+.bag {
+     height:500px;
+    background-color:#10ACC2;
+}
+.w3-bar {
+     background-color: #082442;
+     height:10%;
+}
+
+
+.boton_personalizado  { 
+ text-decoration: none;
+    padding: 13px 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #082442;
+    border-radius: 6px;
+    border: 10px ;
+    width: 30%;
+    height:30%;
+    
+  
+    
+
+}
+a:href: {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h3 {
+    color:white;
+    text-align: center;
+    font weight: 400;
+    font size:1 rem;
+  
+}
+.w3-button{
+    color: white;
+    font-size:20px;
+    PADDING-RIGHT: 20px; 
+    PADDING-LEFT:20px; 
+}
+
+
+ 
+}
+.scontents-container{
+    white:900px;
+    height:900px;
+
+}
+.navbar-brand{
+    height: 50px;
+}
+
+/* cambios alex */
+
+nav{
+    background-color: #001C20;
+
+}
+
+.nav-text{
+    color:white;
+}
+
+
+.navbar-toggler-right{
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color:white;
+}
+
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+}
+.navbar-nav > li > a{
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 3px 5px;
+    margin: 3px 15px 0;
+
+}
+
+.logo-sails{
+    width: 10%;
+    margin-left: 2%;
+
+}
+
+.logo-sails{
+    width: 10%;
+    margin-left: 2%;
+
+}
+nav{
+    background-color: #001C20;
+
+}
+
+.nav-text{
+    color:white;
+}
+
+
+.navbar-toggler-right{
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color:white;
+}
+
+
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.icon-socials{
+    color: white;
+}
+
+
+.navbar-nav > li {
+      float: none;
+      display: inline-block;
+}
+.navbar-nav > li > a{
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 3px 5px;
+    margin: 3px 15px 0;
+
+}
+.btn-logo-menu{
+    background-color: #1A3337;
+    color:white;
+    width: 100%;
+    margin-left: 20%;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.1);
+    padding: 10px 38px 0 10px;
+
+}
+.logo{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 25px;
+}
+
+.header{
+    background-color:  #10ACC2;
+}
+.header-container{
+    max-width: 992px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.logo-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+.h1-header{
+    color: #FFF;
+    font-size: 32px;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    line-height: 100%;
+    position: relative;
+    font-weight: 400;
+    text-align: center;
+
+}
+.h3-header{
+    color: #B1EEF7;
+    font: 18px Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+
+}
+.btn-header{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    color: #FFF;
+    background: #001C20;
+    font-size: 20px;
+    padding: 12px 25px;
+    text-align: center;
+    font-weight: 700;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    margin: 20px auto 50px;
+
+}
+.notice{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+background-color: #FFF;
+height: 50px;
+border-bottom: 1px solid #ebebeb;
+
+}
+.cintilla{
+    padding: 15px 0;
+}
+.about-container{
+    max-width: 992px;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.h-aboutContainer{
+    color: #4b4b4b;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.p-aboutContainer{
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 825px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-section{
+    width: 74%;
+}
+.links-section{
+    width: 74%;
+}
+.footer-color{
+    background-color: #001C20;
+    color: white;
+}
+.list-logos{
+    max-width: 992px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.list-logos-container{
+    padding-top: 100px;
+}
+.col-left{
+    padding-right: 70px;
+}
+
+.col-middle{
+    padding-left: 35px;
+padding-right: 35px;
+}
+.col-right{
+    padding-left: 70px;
+}
+.col-list-logos{
+    box-sizing: border-box;
+    width: 33.33333333%;
+    position: relative;
+    float: left;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.cintilla2{
+    clear: both;
+text-align: center;
+position: relative;
+top: -25px;
+}
+
+.cintilla2 a{
+    border-top: none;
+border-bottom: none;
+border-left: none;
+border-right: none;
+background: 0 0;
+cursor: pointer;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+display: inline-block;
+position: relative;
+font-size: 16px;
+font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+color: #10ACC2;
+height: 42px;
+line-height: 42px;
+vertical-align: middle;
+padding-right: 50px;
+margin-top: 25px;
+
+}
+
+.cintilla2 i{
+    position: absolute;
+right: 0;
+top: 2px;
+font-size: 38px;
+
+}
+.logos-list-2{
+    max-width: 992px;
+margin: 0 auto;
+width: 90%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding-top: 100px;
+padding-bottom: 100px;
+text-align: center;
+
+}
