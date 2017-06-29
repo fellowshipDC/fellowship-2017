@@ -173,6 +173,10 @@ color:white;
 .logo-bottom {
     padding-left: 150px;
 }
-.logo-bottom {
-
+.btn-wel {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
 }
