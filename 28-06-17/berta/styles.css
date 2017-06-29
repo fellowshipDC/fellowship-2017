@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato')
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 .footer {
     height: 200px;
+    background-color: black;
+}
+
+.prefooter {
+    height: 300px;
     background-color: black;
 }
 
@@ -15,7 +20,7 @@
 
 .navbar-style {
     background-color: black;
-    height:64px; 
+    height:50px; 
 }
 
 .navbarbutton-style {
@@ -32,6 +37,12 @@
     height: 536.875px;
 }
 
+.thirdpart{
+    width: auto;
+    height: 536.875px; 
+}
+
+
 .text-style-h1 {
     font-family: 'Lato', sans-serif;
     color: white;
@@ -45,6 +56,27 @@
     text-align: center;
     font-size: 18px;
 }
+
+.text-style-h10 {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(75, 75, 75);
+    text-align: center;
+}
+.text-style-h11 {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(75, 75, 75);
+    text-align: center;    
+
+}
+.text-style-h13 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
 
 .button-style {
     text-align: center !important;
@@ -70,4 +102,26 @@ p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    margin-left: 100px; 
+    margin-right: 200px;
+}
+
+.subimg {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+
+}
+.img-responsive {
+    margin: 0 auto;
+}
+
+.pimg {
+    color: rgb(61, 58, 58);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
 }
