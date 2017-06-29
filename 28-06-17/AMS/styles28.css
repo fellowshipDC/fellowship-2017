@@ -1,0 +1,96 @@
+.nav-bar {
+    background: #001C20;
+}
+.btn-dark{
+    background: #001C20;
+    color: #FFFFFF;
+    width: 240px;
+    height: 50px;
+    font-weight: bold;
+}
+.btn-light{
+    background: #10ACC2;
+    color: #FFFFFF;
+    width: 240px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 32px;
+}
+
+.h2 {
+    font-size: 28px;
+}
+
+.h3 {
+    font-size: 22px;
+}
+
+.h4 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.p-body {
+    font-size: 15px;
+}
+
+.p-feature {
+    font-size: 15px;
+    text-align: left;
+    padding-right: 25% ;    
+}
+
+.header-nowgo{
+    background: #10ACC2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.banner {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 15%;
+    padding-right: 15% ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.down-border {
+    border-bottom-color: #EBEBEB;
+}
+.banner-nowgo {
+    padding-left: 5%;
+    padding-right: 5% ;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.p-important {
+    color: #B1EEEC;
+    font-style: bold;
+}
+
+.body-style {
+    color: #4B4B4B;
+    width: 85%;
+    text-align: center;
+}
+
+.body-container {
+    background: #FFFFFF;
+}
+
+.logo-carousel{
+    background: #FFFFFF;
+    height: 350px;
+    width: auto;
+}
+    
+.footer {
+    height: 200px;
+    background:#001C20;
+}
+.footer .row .col-6 i{
+    color:white;
+}

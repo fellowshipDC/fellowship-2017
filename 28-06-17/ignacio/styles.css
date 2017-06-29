@@ -1,0 +1,58 @@
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
+}
+.bag {
+     height:500px;
+    background-color:#10ACC2;
+}
+.taigline .container-fluid  {
+    color:white;
+    font-size:32px;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+    text-align: center;
+    position:relative;
+    z-index: 15;
+    width: 100%;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    color:white;
+    background-color: black;
+    height: 200px;
+    align: center;
+    box-sizing: border-box;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px 25px;
+    text-align: center;
+    font-weight: 700;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
+    -webkit-transition: all 250ms;
+}
+a:href: {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h3 {
+    color:white;
+    text-align: center;
+    font weight: 400;
+    font size:1 rem;
+  
+}
