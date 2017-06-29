@@ -362,3 +362,80 @@ padding-bottom: 100px;
 text-align: center;
 
 }
+
+.usingsailstitle {
+    color: #4b4b4b;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.usingsailstext {
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.carousel-fade {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .75s ease-in-out;
+}
+
+.carousel-fade .active {
+    opacity: 1;
+}
+.buildyourapp-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    align-content: center;
+}
+
+.buildyourapp-text {
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buildyourapp-background {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #10ACC2;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.btn-install {
+    color: white;
+    background-color: #001c20;
+}
+
+.btn-read {
+    color: white;
+    background-color: #10ACC2;
+}
