@@ -13,23 +13,50 @@
     </head>
     <body>
         <!--Nav Bar -->
-        <div class="conatiner-fluid nav-bar">
-            <div class="row">
-            </div>
+        <div class="container-fluid">
+            <nav class="navbar nav-bar fixed-top navbar-toggleable-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <a class="navbar-brand" href="#">
+                        <img src="http://sailsjs.com/images/logo_sails.png" class="d-inline-block align-top logo" alt="">
+                    </a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-item nav-link navtext" href="#">Get started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link navtext" href="#">Support</a>
+                        </li>
+                        <li class="nav-item dropdown-menu navtext">
+                            <a class="dropdown-item" href="#">Concepts</a>
+                            <a class="dropdown-item" href="#">Reference</a>
+                            <a class="dropdown-item" href="#">App structure</a>
+                            <a class="dropdown-item" href="#">Upgrading</a>
+                            <a class="dropdown-item" href="#">Contribution guide</a>
+                            <a class="dropdown-item" href="#">Tutorials</a>
+                            <a class="dropdown-item" href="#">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link navtext" href="#">Studio</a>
+                        </li>
+                    </ul>             
+                </div>
+            </nav>
         </div>
         <!-- Header -->
-        <div class="conatiner-fluid header-nowgo">
+        <div class="container-fluid header">
             <div class="row">
                 <div class="col-12">
                     <h1 class="h1">The web framework of your dreams.</h1>
                     <p class="p-important">Built for developers by mermen.</p>
                     <button class="btn btn-dark">Get started</button>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <img class="img-fluid" alt="sail's squid" href="http://sailsjs.com/images/hero_squid.png">
+                <div class="col-12">
+                    <img class="img-fluid" alt="sail's squid" src="http://sailsjs.com/images/hero_squid.png">
                     </img>
+                </div>
             </div>
         </div>
         <!-- Checkout Social Media Bar -->
@@ -62,42 +89,42 @@
             <div class="row">
                 <div class="container-fluid body-style">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <img alt="JS" href="http://sailsjs.com/images/feature_javascript.png">
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="JS" src="http://sailsjs.com/images/feature_javascript.png">
                             <h4 class="h4">100% JavaScript</h4>
                             <p class="p-feature">Building on top of Sails means your app 
                                 is written entirely in JavaScript, the language you and
                                  your team are already using in the browser.</p>                  
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <img href=#>
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="database" src="http://sailsjs.com/images/feature_database.png">
                             <h4 class="h4">Any database</h4>
                             <p class="p-feature">Sails bundles a powerful ORM, Waterline, 
                                 which provides a simple data access layer that just works, 
                                 no matter what database you're using.</p>                  
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <img href=#>
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="apis"src="http://sailsjs.com/images/feature_api.png">
                             <h4 class="h4">Auto-generated REST APIs</h4>
                             <p class="p-feature">Sails comes with blueprints that help 
                                 jumpstart your app's backend without writing any code.</p>                  
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <img href=#>
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="gadgets" src="http://sailsjs.com/images/feature_frontend.png">
                             <h4 class="h4">Front-end agnostic</h4>
                             <p class="p-feature">Sails is compatible with any front-end:
                                  Angular, React, iOS, Android, Windows Phone, custom 
                                  hardware, or something else entirely.</p>                  
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <img href=#>
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="crab" src="http://sailsjs.com/images/feature_sockets.png">
                             <h4 class="h4">Every WebSocket integration</h4>
                             <p class="p-feature">Since Sails translates incoming socket 
                                 messages for you, they're automatically compatible 
                                 with every route in your Sails app.</p>                  
                         </div>
-                        <div class="col-md-4 col-sm-12">
-                            <img href=#>
+                        <div class="col-md-4 col-sm-12 text-left">
+                            <img class="feature-icon" alt="scuba" src="http://sailsjs.com/images/feature_support.png">
                             <h4 class="h4">Professional support</h4>
                             <p class="p-feature">Sails offers commercial support to 
                                 accelerate development and ensure best practices 
@@ -138,7 +165,6 @@
         <!-- Logo Carousel -->
         <div class="conatiner-fluid logo-carousel text-center">
             <div class="row">
-                <p>Logo Carousel</p>
                 <div id="logocarousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
