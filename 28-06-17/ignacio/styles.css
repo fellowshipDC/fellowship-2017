@@ -14,6 +14,15 @@
      height:500px;
     background-color:#10ACC2;
 }
+.w3-bar {
+     background-color: #082442;
+     height:10%;
+}
+.logo-img {
+     width=50px;
+  height=50px;
+   
+}
 .taigline .container-fluid  {
     color:white;
     font-size:32px;
@@ -26,23 +35,21 @@
     margin-left: auto;
     margin-right: auto;
 }
-.button {
-    color:white;
-    background-color: black;
-    height: 200px;
-    align: center;
-    box-sizing: border-box;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    cursor: pointer;
+.boton_personalizado  { 
+ text-decoration: none;
+    padding: 13px 40px;
+    font-weight: 600;
     font-size: 20px;
-    padding: 12px 25px;
-    text-align: center;
-    font-weight: 700;
-    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif;
-    -webkit-transition: all 250ms;
+    color: #ffffff;
+    background-color: #082442;
+    border-radius: 6px;
+    border: 10px ;
+    width: 30%;
+    height:30%;
+    
+  
+    
+
 }
 a:href: {
     color: inherit;
@@ -55,4 +62,34 @@ h1, h3 {
     font weight: 400;
     font size:1 rem;
   
+}
+.Responsive-image {
+ width=304;
+  height=236;
+  align=center;
+}
+.w3-button{
+    color: white;
+    font-size:20px;
+    PADDING-RIGHT: 20px; 
+    PADDING-LEFT:20px; 
+}
+
+p {
+      font-size: 16px;
+    display: block;
+    float: left;
+    color: #333;
+    font-family: proxima-nova-soft,Helvetica,Arial,sans-serif; 
+     
+}
+ 
+}
+.scontents-container{
+    white:900px;
+    height:900px;
+
+}
+.navbar-brand{
+    height: 50px;
 }
