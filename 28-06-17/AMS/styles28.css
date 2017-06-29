@@ -1,12 +1,20 @@
 .nav-bar {
     background: #001C20;
 }
+
+.navtext {
+    color: #FFFFFF;
+}
 .btn-dark{
     background: #001C20;
     color: #FFFFFF;
     width: 240px;
     height: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.btn-dark:hover {
+    color:#10ACC2;
 }
 .btn-light{
     background: #10ACC2;
@@ -14,14 +22,24 @@
     width: 240px;
     height: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.btn-light:hover {
+    color:#001C20;
+}
+
+.logo {
+    height: 40px;
+    width; auto;
 }
 
 .h1 {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 .h2 {
-    font-size: 28px;
+    font-size: 30px;
+    margin: 8px;
 }
 
 .h3 {
@@ -31,22 +49,46 @@
 .h4 {
     font-size: 20px;
     text-align: left;
+    padding-top: 30px;
+    color:#4B4B4B;
 }
 
 .p-body {
     font-size: 15px;
+    padding: 7px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .p-feature {
     font-size: 15px;
     text-align: left;
-    padding-right: 25% ;    
+    padding-right: 25%;
+    color: #4B4B4B;
 }
-
+.p-important {
+    color: #B1EEEC;
+    font-style: bold;
+    padding: 7px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.feature-icon {
+    height: 87px;
+    width: auto;
+}
 .header-nowgo{
     background: #10ACC2;
     color: #FFFFFF;
     text-align: center;
+}
+.header{
+    background: #10ACC2;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 60px;
+    height: 500px;
+    padding-top: 70px;
 }
 
 .banner {
@@ -66,25 +108,29 @@
     padding-top: 7%;
     padding-bottom: 7%;
 }
-.p-important {
-    color: #B1EEEC;
-    font-style: bold;
-}
 
 .body-style {
     color: #4B4B4B;
     width: 85%;
     text-align: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 4%;
 }
 
 .body-container {
     background: #FFFFFF;
+    align-self: center;
 }
 
 .logo-carousel{
     background: #FFFFFF;
     height: 350px;
     width: auto;
+    margin: 5%;
+    padding: 5%;
 }
     
 .footer {
