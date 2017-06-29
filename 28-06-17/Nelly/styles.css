@@ -103,6 +103,7 @@ h5 {
 
     padding-bottom: 20px;
 
+
 }
 
 p {
@@ -111,4 +112,38 @@ p {
 .features {
   margin-left: 152px;
   margin-right: 152px;
+}
+
+hr {
+  box-sizing: border-box;
+    border-top: none;
+    border-bottom: 1px solid #ebebeb;
+    border-left: none;
+    border-right: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    padding-top: 50px;
+}
+
+.users {
+  margin-left: 152px;
+  margin-right: 152px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+h3 {
+  color: #4b4b4b;
+}
+.blue2 {
+  background-color: #10ACC2;
+  color: #FFF;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.whitetext {
+  color: white;
+  text-align: center;
 }
