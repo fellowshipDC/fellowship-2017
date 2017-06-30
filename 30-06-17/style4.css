@@ -1,0 +1,15 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.banner-back {
+	background-color:#1976d2;
+	color: #fff;
+	width: 2067px;
+	height: 858px;
+}
+
+.banner-icon{
+width: 250px;
+height: 250px;
+}
