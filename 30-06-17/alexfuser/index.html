@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- My Styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Angular</title>
+</head>
+<body>
+	<!-- NAV BAR -->
+	<nav class="navbar navbar-toggleable-md navbar-light ">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand" href="#"><img id="angular-logo" src="https://angular.io/assets/images/logos/standard/logo-nav@2x.png"></a>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Link</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="#">Disabled</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+			    </form>
+		  </div>
+	</nav>
+
+	<!-- END NAV BAR -->
+	<!-- header -->
+	<header class="l-relative">
+		  <!--BACKGROUND IMAGE-->
+		  <div class="background-sky hero"></div>
+		<!--INTRO SECTION -->
+		  <section id="intro">
+		    <!-- LOGO -->
+		    <div class="hero-logo">
+		      <img src="https://angular.io/assets/images/logos/angular/angular.svg" height="250" width="250">
+		    </div>
+		      <!-- CONTAINER     -->
+		    <div class="homepage-container">
+		      <!-- container content starts -->
+		      <div class="hero-headline no-toc">One framework.<br>Mobile &amp; desktop.</div>
+		      <a class="button hero-cta" href="guide/quickstart">Get Started</a>
+		  </div><!-- CONTAINER END -->
+		  </section>
+	</header>
+		<!-- end header -->
+	<!-- across platform -->
+<div class="home-rows">	
+	
+		<div class="homepage-container">
+		      <div class="announcement-bar">
+		        <img src="https://angular.io/generated/images/marketing/angular-mix.png" height="40" width="151">
+		        <p>Join us at our newest event, October 2017</p>
+		        <a class="button" href="https://angularmix.com/">Learn More</a>
+		     </div>
+    	</div>
+		<div class="row home-row" layout="row">
+					<div class="promo-img-container promo-1 ">
+				        <div>
+				          <img src="https://angular.io/assets/images/home/responsive-framework.svg" alt="responsive framework" height="222" width="340">
+				        </div>
+				    </div>
+				    <div class="text-container">
+				        <div class="text-block promo-1-desc l-pad-top-2">
+				          <div class="text-headline">Develop Across All Platforms</div>
+				          <p class="text-body">Learn one way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.
+				          </p>
+				        </div>
+				     </div>
+			
+		</div>
+	
+	<!-- end across platform --> 
+	<!-- speed performance -->
+	<div layout="row" layout-xs="column" class="home-row">
+      <div class="text-container">
+        <div class="text-block">
+          <div class="text-headline">Speed &amp; Performance</div>
+          <p class="text-body">Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.</p>
+          <p class="text-body">Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</p>
+        </div>
+      </div>
+      <div class="promo-img-container promo-2">
+        <div>
+          <img src="https://angular.io/assets/images/home/speed-performance.svg" alt="speed and performance" height="222" width="323">
+        </div>
+      </div>
+    </div>
+
+	<!-- end speed performance -->
+<!-- tooling -->
+	<div layout="row" layout-xs="column" class="home-row">
+      <div class="promo-img-container promo-3">
+        <div><img src="https://angular.io/assets/images/home/joyful-development.png" alt="IDE example" height="257" width="472"></div>
+      </div>
+      <div class="text-container">
+        <div class="text-block promo-3-desc">
+          <div class="text-headline">Incredible Tooling</div>
+          <p class="text-body">Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor. All this comes together so you can focus on building amazing apps rather than trying to make the code work.
+          </p>
+        </div>
+      </div>
+    </div>
+<!-- end tooling -->
+<!-- love -->
+	<div layout="row" layout-xs="column" class="home-row">
+      <div class="text-container">
+        <div class="text-block l-pad-top-2">
+          <div class="text-headline">Loved by Millions</div>
+          <p class="text-body">From prototype through global deployment, Angular delivers the productivity and scalable infrastructure that supports Google's largest applications.</p>
+        </div>
+      </div>
+      <div class="promo-img-container promo-4">
+        <div>
+          <img src="https://angular.io/assets/images/home/loved-by-millions.png" alt="angular on the map" height="228" width="455">
+        </div>
+      </div>
+    </div>
+<!-- end love -->
+<!-- get started -->
+	<div layout="row" layout-xs="column" class="home-row">
+    <a href="guide/quickstart">
+      <div class="card">
+          <img src="https://angular.io/assets/images/icons/code-icon.svg" height="70px">
+          <div class="card-text-container">
+            <div class="text-headline">Get Started</div>
+            <p>Start building your Angular application.</p>
+          </div>
+      </div>
+    </a>
+  </div>
+<!-- end get started -->
+<!-- footer -->
+</div>
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 offset-2">
+				<h3>Resources</h3>
+				<ul>
+					<li>About</li>
+					<li>Resource Listing</li>
+					<li>Press Kit</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<h3>Resources</h3>
+				<ul>
+					<li>About</li>
+					<li>Resource Listing</li>
+					<li>Press Kit</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<h3>Resources</h3>
+				<ul>
+					<li>About</li>
+					<li>Resource Listing</li>
+					<li>Press Kit</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<h3>Resources</h3>
+				<ul>
+					<li>About</li>
+					<li>Resource Listing</li>
+					<li>Press Kit</li>
+					<li>Blog</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center ">
+				<p>Powered by Google ©2010-2017. Code licensed under an MIT-style License. Documentation licensed under CC BY 4.0. </p>
+				<br>
+				<p>Version 4.2.6-build.32304+sha.54f96bf. </p>
+			</div>
+		</div>
+	</div>
+
+</footer>
+<!-- end footer -->
+
+</body>
+</html>
