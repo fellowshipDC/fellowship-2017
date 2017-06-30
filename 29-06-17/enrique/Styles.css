@@ -1,3 +1,61 @@
+h1, h2, h3, h4, h5, h6, p {
+	font-family: Lato, sans-serif;
+}
+
+.banner-first-text {
+	color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.banner-second-text{
+	color: #c4e3e8;
+    font-size: 20px;
+    text-align: center;
+}
+.blackbck-whitetxt {
+	background-color: black;
+	color: white;
+}
+.banner-container {
+    background-color: #10acc2;
+    overflow: scroll;
+    padding: 50px 100px;
+}
+
+.contentone	{
+	text-align: center;
+	color: #4E5052;
+    font-size: 25px;
+}
+
+.contenttwo {
+	font-weight: 300;
+	text-align: center;
+    color: grey;
+}
+.contt {
+    width: 150px;
+    padding: 100px;
+}
+
+.conto {
+    font-weight: 300;
+    font-family: Lato, sans-serif;
+    color: grey;
+}
+.ghr {
+    color: #10bcc2;
+    font-style: bold;
+}
+
+.pf-container {
+    background-color: #10acc2;
+     height: 430px;
+     text-align: center;
+     align-items: center;
+    padding: 100px;
+ }
 .footer {
     height: 200px;
     background-color: black;
@@ -9,4 +67,9 @@
 
 .footer .row .col-6 i {
     color: white;
+}
+
+#pngs {
+    width: : 120;
+    height: 87;
 }
