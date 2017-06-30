@@ -1,0 +1,48 @@
+
+/*HEADER*/ 
+
+.bg-1 { 
+	background:
+  -webkit-linear-gradient(rgba(47, 132, 216, 1), rgba(135, 60, 255, 0.0) 0%),
+ -webkit-linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 45%, rgba(55, 230, 235, 1) 0%);
+}
+
+
+ .bg-1 img {
+
+ 	width: 50%
+ }
+
+ /*BANNER*/  
+  .bg-2 { 
+      background-color: #ffffff; 
+      color: #03324C;
+      
+  }
+
+ /* CONTENEDORES CON IMAGENES */ 
+
+  .bg-3 { 
+      background-color: #ffffff; 
+      color: #03324C;
+      
+  }
+ 
+
+
+ /* FOOTER */  
+  .bg-4 { 
+      background-color: #2F84D8; 
+      color: #ffffff;
+  }
+
+
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+
+
+.div nav-item {
+   color: #ffffff;
+}
