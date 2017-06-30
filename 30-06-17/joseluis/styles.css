@@ -1,0 +1,33 @@
+.logo {
+    position: relative;
+    margin-top: -21px;
+    margin-right: 20px;
+    top: 12px;
+    height: 40px;
+    width: 150px;
+    width: auto;
+}
+
+.navbar-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff !important;
+    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.margin-navbar {
+    margin-bottom: 100px;
+}
+
+hr {
+    border: none;
+    background: #dbdbdb;
+    height: 1px;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
