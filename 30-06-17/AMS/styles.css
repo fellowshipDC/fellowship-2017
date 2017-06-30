@@ -1,0 +1,15 @@
+.header {
+    background:linear-gradient(8deg, #FFFFFF 50%, #1759B1 50%); 
+    height: 650px;
+    color: #FFFFFF;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.nav-bar {
+    background: #1759B1;
+    color: #FFFFFF;
+}
