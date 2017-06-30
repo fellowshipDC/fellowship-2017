@@ -40,6 +40,8 @@
     width: 240px;
     margin: 20px auto 50px;
     align-content: center;
+    font-weight: 700;
+    padding: 12px 25px 12px 25px;
 }
 
 .calamar {
@@ -59,6 +61,15 @@
 
 .about {
     margin-bottom: 50px;
+
+}
+
+.aboutcontainer{
+  margin-left:152px;
+  margin-right :152px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .characteristics {
@@ -144,22 +155,34 @@
     box-sizing: border-box;
     background-color: #10ACC2;
     overflow-x: hidden;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     align-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .btn-install {
     color: white;
     background-color: #001c20;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 20px;
+padding: 12px 25px;
+border-radius: 7px;
+width: 230px;
 }
 
 .btn-read {
     color: white;
     background-color: #10ACC2;
+    font-weight: bold;
+    font-size: 20px;
+padding: 12px 25px;
+border-radius: 7px;
+width: 230px;
+
 }
 
--btns {
+.btns {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: bor
@@ -179,4 +202,26 @@
   border-radius: 5px;
   padding: 15px 20px 0 10px;
 
+}
+.buildApp{
+  margin: 20px 155px 12px  155px;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+}
+.textContainer {
+  text-align: center;
+  padding: 125px 0px 125px 0px;
+
+}
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.footer .row {
+    height: 200px;
+}
+
+.footer .row .col-6 i {
+    color: white;
 }

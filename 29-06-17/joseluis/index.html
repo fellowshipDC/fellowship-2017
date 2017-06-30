@@ -16,7 +16,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-inverse  fixed-top" style="background-color:black">
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -86,9 +86,11 @@
     <!-- contact ends-->
     <!-- About -->
     <div class="container-fluid about">
+      <div class="aboutcontainer">
         <h3 class="texto-about">Sails makes it easy to build custom, enterprise-grade Node.js apps.</h3>
         <p class="texto-about">Build practical, production-ready Node.js apps in a matter of weeks, not months.<br> Sails is the most popular MVC framework for Node.js, designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements
             of modern apps: data-driven APIs with a scalable, service-oriented architecture.</p>
+        </div>
     </div>
     <!-- About ends-->
     <!-- Characteristics-->
@@ -171,13 +173,17 @@
     <!-- Who's using sails section ends-->
     <!-- Go build your app section -->
     <div class="container-fluid buildyourapp-background">
+      <div class="textContainer">
         <h3 class="buildyourapp-title">Now go build your app</h3>
         <p class="buildyourapp-text">Generate JavaScript for your new Sails app, read the documentation, and start coding.</p>
-        <div class="row">
+
+      <!--  <div class="row">
             <div class="col-4"></div>
-            <div class="col-4" class="bts">
+            <div class="col-4" class="bts">-->
+            <div class="buildApp">
                 <button type="button" class="btn btn-install">Install Sails</button>
                 <button type="button" class="btn btn-read">Read the docs</button>
+            </div>
             </div>
             <div class="col-4"></div>
         </div>
