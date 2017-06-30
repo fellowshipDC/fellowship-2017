@@ -1,0 +1,33 @@
+.logo_angular {
+	width:100px;
+	height:auto;
+}
+
+.nav_color {
+	background-color: #2674C9;
+}
+
+.logo {
+	width: 400px;
+	height: 400px;
+}
+
+.diagonal .row .col-6 {
+	background-color: #2674C9;
+	padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+}
+
+.barra .img .p {
+	padding: 16px;
+    margin: 0 auto;
+    max-width: 50vw;
+    background-color: #fff;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.c1 {
+	background-color: #FAFAFA;
+}
