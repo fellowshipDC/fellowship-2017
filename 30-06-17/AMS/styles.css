@@ -1,0 +1,63 @@
+.header {
+    background:linear-gradient(8deg, #FFFFFF 50%, #1759B1 50%); 
+    height: 700px;
+    color: #FFFFFF;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.body-icon1 {
+    height: 180px;
+    width: auto;
+}
+
+.body-icon2 {
+    height: auto;
+    width: 400px;
+}
+
+.angular {
+    width: 370px;
+    height: 370px;
+    margin-top: 18px;
+}
+
+.nav-bar {
+    background: #1759B1;
+    color: #FFFFFF;
+}
+
+.left {
+    text-align: right;
+    height: 250px;
+    width: auto
+}
+
+.right {
+    text-align: left;
+    height: 250px;
+    width: auto
+}
+
+@media (min-width:500px) {
+    .bg-1 {
+        padding-right:230px;
+        padding-left:230px;
+    }
+}
+
+.p {
+    font-family: Helvetica;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.h2 {
+    font-size: 22px;
+    font-family: Helvetica;
+    text-transform: capitalize;
+}
