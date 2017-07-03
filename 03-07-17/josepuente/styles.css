@@ -1,0 +1,38 @@
+.invisibilidad {
+    display: none;
+}
+
+.visibilidad {
+    display: block;
+}
+
+.centrado {
+    text-align: center;
+    align-content: center;
+}
+
+.dogs {
+    height: 240px;
+    width: auto;
+}
+
+.cats {
+    height: 240px;
+    width: auto;
+}
+
+h1 {
+    font-family: 'Ewert';
+}
+
+.lucida {
+    font-family: "Lucida Typewriter";
+}
+
+.corazon {
+    color: #FF0000;
+}
+
+.btn-middle {
+    vertical-align: middle;
+}
