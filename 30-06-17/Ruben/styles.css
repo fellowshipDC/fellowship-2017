@@ -1,0 +1,166 @@
+.footer {
+    height: 300px;
+    background-color: #1976d2;
+    align-content: right;
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 100%;
+    padding-block-end: 60px;
+    padding-block-start: 60px;
+}
+
+.footer .col-md {
+    height: 200px;
+}
+
+.footer .row {
+    height: auto;
+}
+
+.footer p {
+    color:white;
+}
+
+.footer a {
+    color:white;
+}
+
+.footer li {
+    color:white;
+}
+
+.footer link {
+    color:white;
+}
+
+.footer h3 {
+    color:white;
+}
+
+.features .h4 {
+    color:#1976d2;
+}
+
+.h1 {
+    font-size: 34px;
+}
+
+.h2 {
+    font-size: 30px;
+    margin: 8px;
+}
+
+.h3 {
+    font-size: 22px;
+}
+
+.h4 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    color:#4B4B4B;
+}
+
+import { Component, Input } from '@angular/core';
+
+import { NavigationNode, VersionInfo } from 'app/navigation/navigation.service';
+
+@Component({
+  selector: 'aio-footer',
+  templateUrl: 'footer.component.html'
+})
+export class FooterComponent {
+  @Input() nodes: NavigationNode[];
+  @Input() versionInfo: VersionInfo;
+}
+
+.feature-icon {
+    height: 60%;
+    width: 69%;
+}
+
+.hero-headline {
+    color: #fff;
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+}
+
+.button.hero-cta {
+    background-color: #fff;
+    border-radius: 48px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    text-align: center;
+}
+.navbar {
+color: white;
+}
+.nav-link {
+color: white;
+}
+
+.card {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+header {
+    background-color: #1976d2;
+}
+.background-sky {
+    background-color: #1976d2;
+    background: linear-gradient(145deg,#0d47a1,#42a5f5);
+    color: #fff;
+}
+
+.hero {
+    min-height: 360px;
+    height: 80vh;
+    max-height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 48px 48px 32px 48px;
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-transform: skewY(8deg);
+    transform: skewY(8deg);
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+}
+
+.navbar-brand img {
+    position: relative;
+    margin-top: -21px;
+    margin-right: 20px;
+    top: 12px;
+    height: 40px;
+}
