@@ -1,0 +1,26 @@
+$( document ).ready(function() {
+    $(".a1").click(function(){
+    $(".homei").hide()
+    $(".a1i").show()
+    $(".a2i").hide()
+    $(".a3i").hide();
+})
+    $(".home").click(function(){
+    $(".homei").show()    
+    $(".a1i").hide()
+    $(".a2i").hide()
+    $(".a3i").hide();
+})
+    $(".a2").click(function(){
+    $(".homei").hide();   
+    $(".a1i").hide()
+    $(".a2i").show()
+    $(".a3i").hide();
+})
+    $(".a3").click(function(){
+    $(".homei").hide();   
+    $(".a1i").hide()
+    $(".a2i").hide()
+    $(".a3i").show();
+})
+})
