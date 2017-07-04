@@ -1,0 +1,18 @@
+body {
+    background: url("http://i.imgur.com/bGd0jEz.jpg");
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight:400;
+}
+
+body {
+    font-family: Starjedi;
+    color: #FFE91F
+}
+
+h1 {
+    font-size: 115px;
+}
