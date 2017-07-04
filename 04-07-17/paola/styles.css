@@ -1,0 +1,23 @@
+
+body{
+    
+    background: url('https://i.ytimg.com/vi/_kaqhy2iV7c/maxresdefault.jpg');
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight:400;
+}
+
+
+
+body h1, body h2 {
+    font-family: Starjedi;
+    color: #FFd700;
+}
+
+fotorama.resize {
+  width: 500;
+  height: 333;
+}
