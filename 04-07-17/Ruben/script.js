@@ -4,24 +4,24 @@ jQuery(document).ready(function () {
         {
             items:                      [
                                             {
-                                                src: 'img1.jpg',		  // image url
-                                                srct: 'img1.jpg',	  // thumbnail url
-                                                title: 'May',      // element title
+                                                src: 'img2.jpg',		  // image url
+                                                srct: 'img2.jpg',	  // thumbnail url
+                                                title: 'I',      // element title
                                                 customData: { favorite: false }    // custom data -> favorite status
                                             },
-                                            { src: 'img2.jpg', srct: 'img2.jpg', title: 'the 4th', customData: { favorite: true} },
-                                            { src: 'img3.jpg', srct: 'img3.jpg', title: 'be with you', customData: { favorite: false} }
+                                            { src: 'img3.jpg', srct: 'img3.jpg', title: 'am', customData: { favorite: true} },
+                                            { src: 'img1.jpg', srct: 'img1.jpg', title: 'your father', customData: { favorite: false} }
                                         ],
             thumbnailWidth:             'auto',
-            thumbnailHeight:            200,
+            thumbnailHeight:            300,
             locationHash:               false,
             thumbnailHoverEffect2 :     '.ngy2info_opacity_0_1|.ngy2info_scale_5_1',
-            thumbnailBuildInit2:        '.ngy2info_translateY_-50%|.ngy2info_translateX_-50%',
-            thumbnailToolbarImage:      { topLeft: 'custom1' },
+            thumbnailBuildInit2:        '.ngy2info_translateY_-70%|.ngy2info_translateX_-70%',
+            thumbnailToolbarImage:      { topRight: 'download' },
             fnThumbnailInit:            myTnInit,
             fnThumbnailToolCustAction:  myTnTool,
-            icons:                      { thumbnailCustomTool1 : '<i class="nGY2Icon icon-star"></i>'}
-
+            icons:                      { thumbnailCustomTool1 : '<i class="nGY2Icon icon-circle-empty"></i>'}
+            
         });
 
 });
@@ -46,7 +46,7 @@ function myTnTool( action, item ) {
 // Add custom elements after one thumbnail is build
 function myTnInit( $e, item, GOMidx ) {
     var st='position:absolute;top:50%;left:50%;padding:10px;'
-    $e.find('.nGY2GThumbnailSub').append('<button style="'+st+'" type="button" class="ngy2info" data-ngy2action="info">photo info</button>');
+    $e.find('.nGY2GThumbnailSub').append('<button style="'+st+'" type="button" class="ngy2info" data-ngy2action="info">luke</button>');
     TnSetFavorite( item);
 }
 

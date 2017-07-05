@@ -1,3 +1,0 @@
-var nombre="Star Wars Museum";
-var aliens=["yoda", "alf", "terminator", "drwho"];
- 
