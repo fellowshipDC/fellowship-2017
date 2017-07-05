@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight:400;
+}
+
+body {
+  background: url(http://wallpapercave.com/wp/1J1jxn7.jpg)
+}
+
+ body h1 {
+  font-family: Starjedi;
+  color: #FFd700 !important;
+  text-align: center;
+}
+
+body h2 {
+  font-family: Starjedi;
+  color: #FFd700 !important;
+  text-align: center;
+}
