@@ -1,0 +1,18 @@
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3I6ee2bVq_xdru75aDN8MpQvjczOeeELiaksVjTDEZAqsOXEaQ);
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight:400;
+}
+
+body {
+    font-family: Starjedi;
+    color: #FFE91F
+}
+
+h1 {
+    font-size: 125px;
+}
