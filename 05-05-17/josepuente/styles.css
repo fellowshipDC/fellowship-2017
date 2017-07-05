@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight: 400;
+}
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+body {
+    background: url(http://www.astronomy.com/~/media/73A5EBE14DFC4A8AAA5162D91AEE30DD.jpg);
+}
+
+body h1 {
+    font-family: Starjedi;
+    color: #FFd700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+body h3 {
+    font-family: Starjedi;
+    color: #FFd700;
+    text-align: center;
+}
+
+body p {
+    width: 100%;
+    height: 100%;
+    font: 700 1em "News Cycle", sans-serif;
+    letter-spacing: .15em;
+    color: #4bd5e4;
+    overflow: hidden;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+body img {
+    margin-top: 30px;
+    /*margin-bottom: 50px;*/
+    vertical-align: middle;
+    max-height: 450px;
+    width: auto;
+}
+
+body {
+    align-content: center;
+}
+
+hr.style-five {
+    border: 0;
+    height: 0;
+    /* Firefox... */
+    box-shadow: 0 0 3px 3px #4bd5e4;
+    margin-bottom: 50px;
+}
