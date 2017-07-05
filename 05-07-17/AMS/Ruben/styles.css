@@ -1,0 +1,39 @@
+body {
+    background: url('https://lumiere-a.akamaihd.net/v1/images/Death-Star-II_b5760154.jpeg?region=0%2C68%2C2160%2C1080');
+    font-family: Starjedi;
+    color: #FFE91F;
+}
+
+@font-face {
+    font-family: Starjedi;
+    src: url('star_jedi/starjedi/Starjedi.ttf');
+    font-weight:400;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 75px;
+  }
+  .gallery {
+      padding-top: 10px; 
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 120px;
+  }
+  .gallery {
+      padding-top: 30px; 
+  }
+}
