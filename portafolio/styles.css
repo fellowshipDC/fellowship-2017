@@ -1,0 +1,138 @@
+header{
+   text-align:center;
+  background:url("http://2.bp.blogspot.com/-PO6ZAyrRj4M/UNohQO8A3nI/AAAAAAAAxFE/F4U5-2Ox2Fs/s1600/Paisaje+Wallpaper+(31).jpg");
+  background-size:cover;
+  color:white;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+
+}
+.body {
+  width:100%;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+    border: 10px;
+
+}
+<!--img-->
+.container {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+    max-width:400px;
+}
+.div-img {
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
+}
+.div-img.hidden {
+  overflow: hidden;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+   
+}
+.fontnav {
+    font-size: 25px;
+    height: 30px;
+}
+.navf {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+}
+.pryt1{
+  background: radial-gradient(white, #6EE3E8, #03BAC2);
+   background-image: url(https://cdn3.iconfinder.com/data/icons/aleatory/512/html-512.png)
+   height:200px;
+   width: 180px;
+  margin-left: 80px;
+  margin-right: 10px;
+   padding: 10px;
+  :center;
+}
+ .pryt2{
+     background-color: #5F6060;
+   height:200px;
+   max-width: 120px;
+   max-height: 200px;
+   min-width: 80px;
+   min-height: 50px ;
+   margin-left: 80px;
+   padding: 10px;
+ }
+ .pryt3{
+     background-color: #5F6060;
+   height:200px;
+   width: 150px;
+   padding: 10px;
+   margin-left: 80px;
+  
+ }
+.footer{
+    height: 120px;
+    width: 100%;
+    background-color:#386361 ;
+    padding: 15px;
+    margin: 15px 0px 0px 0px;
+    color:white;
+    font-size: 12px;
+}
+.footer-img{
+    height: 80px;
+    width: 80px;
+  
+}
+.row{
+    width: 100%;
+    padding: 10px;
+}
+.fnd{
+  max-width: 100%;
+  height:100%;
+  background: url(http://www2.cordoba.gov.ar/turismo/wp-content/uploads/2013/08/degradados-fondos-de-pantalla-textura-la-luz-patr-n-fondo-un-degradado-429735.jpg)
+}
+.sld{
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  line-height:15px;
+  font-size: 24px;
+}
+.cnt{
+  height: 90px;
+  width: 100px;
+}
