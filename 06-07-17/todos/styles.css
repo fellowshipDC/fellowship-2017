@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.navbar {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+.navbar a.navbar-brand {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    /*font-family: 'Lato', sans-serif;*/
+}
+
+.navbar .menu p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+div.jumbotron.header {
+    height: 600px;
+    background-color: #18BC9C;
+    border-radius: 0px;
+}
+
+div.jumbotron.header .title {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+div.jumbotron.header .title p {
+    margin-bottom: 0px;
+}
+
+div.jumbotron.header .star-light {
+    padding-left: 38%;
+    padding-right: 38%;
+}
+
+div.jumbotron.header .star-light hr {
+    background-color: white;
+    height: 4px;
+}
+
+div.jumbotron.header .star-light i {
+    color: white;
+}
+
+div.jumbotron.header .description {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
