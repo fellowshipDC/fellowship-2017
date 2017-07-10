@@ -1,0 +1,13 @@
+ul.navbar-nav li.nav-item.active a.nav-link  {
+    color: yellow;
+}
+ul.navbar-nav li.nav-item a.nav-link{
+    color: green;
+}
+ul.navbar-nav li.nav-item.dropdown div.dropdown-menu a.dropdown-item{
+    color: blue;
+}
+
+div.modal-dialog div.modal-content div.modal-body{
+    color:yellow;
+}
