@@ -1,0 +1,11 @@
+{
+  "name": "node-alex",
+  "version": "1.0.0",
+  "description": "Lector de PDF ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Fuser",
+  "license": "ISC"
+}
