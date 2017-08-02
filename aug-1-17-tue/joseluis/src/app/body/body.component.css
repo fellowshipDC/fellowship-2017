@@ -1,0 +1,53 @@
+
+body {
+  background-color: #D1D996;
+}
+
+.marco {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 25%;
+  border-color: #60BFAE;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px #F59E14;
+  font-family: "Erica one", sans-serif;
+}
+
+.fondo {
+  background-color: #60BFAE;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.encabezadolista {
+  font-family: "Erica one", sans-serif;
+  text-shadow: 2px 2px #F59E14;
+  color: #403806;
+  text-align: center;
+}
+
+.enlace {
+  color: #403806;
+  background-color: #60BFAE;
+  border-radius: 10px;
+}
+
+.biography {
+  text-align: justify;
+}
+
+.playlist-link {
+  text-align: center;
+  top-padding: 30px;
+}

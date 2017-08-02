@@ -1,0 +1,17 @@
+{
+  "name": "rolandoesc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "grunt": "^1.0.1",
+    "d3-request": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
