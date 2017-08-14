@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+doctype html
+html(lang='en')
+  head
+    title Jade
+    script(type='text/javascript').
+      foo = true;
+      bar = function () {};
+      if (foo) {
+      bar(1 + 5)
+      }
+  body
+    h1 Jade - node template engine
+    #container.col
+      p You are amazing
+      p
+        | Jade is a terse and simple
+        | templating language with a
+        | strong focus on performance
+        | and powerful features.
+
+      var list = ["Uno", "Dos", "Tres",
+          "Cuatro", "Cinco", "Seis"]
+      each item in list
+        li= item
+
+
+
+<router-outlet></router-outlet>
