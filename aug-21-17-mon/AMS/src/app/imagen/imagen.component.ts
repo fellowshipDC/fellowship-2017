@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-imagen',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImagenComponent implements OnInit {
 
-  constructor() { }
+  str: string;
+  private sub: any;
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.sub = this.route.params.subscribe(params => {this.str = params['str'];})
+
   }
 
 }
