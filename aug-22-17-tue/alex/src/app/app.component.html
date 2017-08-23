@@ -1,8 +1,7 @@
 
-    {{users.Message}}
     
         <ul class="user-list">
-            <li ng-repeat="user in users.UserList">
+            <li *ngFor="let user of users">
                 <div>
                      <img src="{{user.avatar_url}}" class="user-img">  
                     <a href="{{user.html_url}}">{{user.login}}</a>

@@ -7,7 +7,7 @@ import { Http, Response } from '@angular/http';
   styleUrls: ['./app.component.styl']
 })
 export class AppComponent implements OnInit {
-  users: object;
+  users: object[];
   constructor(private http: Http) {}
 
   getUsers () {
