@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1></h1>
+
+<ul> 
+    <a *ngFor="let book of books.results" [routerLink]="['/book', book.title]"> 
+        <li> {{book.title}}</li>
+    </a>
+</ul>
+
