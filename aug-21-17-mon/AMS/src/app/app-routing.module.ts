@@ -11,7 +11,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'imagen',
+    path: 'imagen/:str',
     children: [],
     component: ImagenComponent
   }

@@ -15,7 +15,7 @@
   <div class="jumbotron projects">
     <div class="row d-flex justify-content-center align-items-center">
       <div class="col-4" *ngFor='let str of images'>
-        <a routerLink="/imagen" routerLinkActive="active">
+        <a [routerLink]="['/imagen', str]" routerLinkActive="active">
           <img class="img-fluid" src={{str}} (click)='goToImg(str)'>
         </a>
       </div>
