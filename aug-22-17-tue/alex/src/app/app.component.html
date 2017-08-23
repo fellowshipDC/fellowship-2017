@@ -1,0 +1,13 @@
+
+    {{users.Message}}
+    
+        <ul class="user-list">
+            <li ng-repeat="user in users.UserList">
+                <div>
+                     <img src="{{user.avatar_url}}" class="user-img">  
+                    <a href="{{user.html_url}}">{{user.login}}</a>
+                </div>
+            </li>
+        </ul>
+
+<router-outlet></router-outlet>

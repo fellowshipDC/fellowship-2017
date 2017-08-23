@@ -1,0 +1,10 @@
+.jumbotron.header
+  .row.d-flex.justify-content-center.aling-items-center
+    .col-6.text-center
+      p {{getHeader()}}
+
+.jumbotron.projects 
+  .row.d-flex.justify-content-center.align-items-center
+    .col-4(*ngFor='let str of images')
+      img.img-fluid([src]='str', (click)= 'goToIMG(str)', [routerLink]="/image")
+    
