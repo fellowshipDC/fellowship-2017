@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
-
-import { HomeComponent } from './home/home.component';
-import { ImageComponent } from './image/image.component';
+import { BookComponent } from "./book/book.component";
+import { HomeComponent } from "./home/home.component";
 
 const routes: Routes = [
   {
     path: '',
-    children: [],
-    component: HomeComponent
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  {   path: 'book/:title',
+      component: BookComponent
   },
   {
-    path: 'image/:url',
-    children: [],
-    component: ImageComponent
+    path: 'home',
+    component: HomeComponent
   }
 ];
 
