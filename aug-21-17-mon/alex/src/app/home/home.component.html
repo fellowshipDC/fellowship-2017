@@ -1,0 +1,23 @@
+<div class="jumbotron header">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-6 text-center">
+        <p>{{header}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron title">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-6 text-center">
+        <p>{{title}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron projects">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-4" *ngFor='let url of images'>
+        <a [routerLink]="['/image', url]" routerLinkActive="active">
+          <img class="img-fluid" src={{url}} (click)='goToIMG(url)'>
+        </a>
+      </div>
+    </div>
+  </div>

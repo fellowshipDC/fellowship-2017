@@ -7,17 +7,13 @@ import { ImageComponent } from './image/image.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     children: [],
     component: HomeComponent
   },
   {
-    path: 'image',
+    path: 'image/:url',
     children: [],
-    component: ImageComponent
-  }
-  {
-    path: 'image/:id',
     component: ImageComponent
   }
 ];
