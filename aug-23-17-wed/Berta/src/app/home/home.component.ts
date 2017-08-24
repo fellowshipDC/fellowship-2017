@@ -3,10 +3,10 @@ import { Http, Response } from '@angular/http';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.styl']
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.styl']
 })
-export class AppComponent implements OnInit {
+export class HomeComponent implements OnInit {
 
   books;
 
@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
       'https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json',
       {
         params: {
-          'api-key': '034ba3b659a140d3a558cf2e0a79614f'
+          'api-key': '542abbd10ccc41a3aae0302f189ab64c'
         }
       }
     ).subscribe((res: Response) => this.books = res.json());
