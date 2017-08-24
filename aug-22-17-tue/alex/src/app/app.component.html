@@ -1,0 +1,12 @@
+
+    
+        <ul class="user-list">
+            <li *ngFor="let user of users">
+                <div>
+                     <img src="{{user.avatar_url}}" class="user-img">  
+                    <a href="{{user.html_url}}">{{user.login}}</a>
+                </div>
+            </li>
+        </ul>
+
+<router-outlet></router-outlet>
