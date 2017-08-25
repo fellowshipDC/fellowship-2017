@@ -1,0 +1,7 @@
+<h1>Los Best Sellers según el NYT</h1>
+
+<ul>
+    <a *ngFor="let book of books.results" [routerLink]="['/book', book.id]">
+        <li> {{book.id}} </li>
+    </a>
+</ul>
