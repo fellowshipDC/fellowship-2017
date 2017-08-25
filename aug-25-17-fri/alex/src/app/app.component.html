@@ -1,0 +1,20 @@
+<div class="container header  d-flex justify-content-center align-content-center"> 
+    <div class="row">
+      <p class="col-12">GIFS 😈</p>
+    </div>
+  </div>
+
+<div class="container search d-flex justify-content-center align-items-center">
+      <div class="row">
+        <input (keyup)="onKey($event)" type="text" class="form-control col-12" placeholder="Search for..." aria-label="q" aria-describedby="q">
+      </div>
+</div>
+
+<div class="container d-flex justify-content-center align-content-center">
+  <div class="row">
+      <div class="col-4" *ngFor="let gif of gifs.data">
+        <img [src]="gif.images.original.url">
+      </div>
+  </div>
+</div>
+
