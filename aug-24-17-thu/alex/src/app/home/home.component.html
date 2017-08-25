@@ -1,0 +1,33 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1 class="display-3 text-center">Películas de Studio Ghibli</h1>
+  <p class="lead">Studio Ghibli (スタジオジブリ Sutajio Jiburi?) es un estudio japonés de animación, considerado por la crítica especializada y muchos cinéfilos como uno de los mejores estudios de animación del mundo en la actualidad.</p>
+  <p class="lead">A continuación mostramos algunas de sus más famosas películas:</p>
+  <ul>
+    <li *ngFor="let film of films">
+        <div>
+             <p>{{film.title}}</p>
+            <p>{{film.description}}</p>
+        </div>
+    </li>
+  </ul>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 text-center">Personas que participaron en las películas</h1>
+      <ul>
+        <li *ngFor="let people of peoples">
+          <div>
+            <p>{{people.name}}</p>
+            <ul>
+              <li *ngFor="let film of people.films">
+                <p>{{film}}</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
