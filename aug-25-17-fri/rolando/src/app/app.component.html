@@ -1,0 +1,15 @@
+<h1>Probando</h1>
+<input (keyup)="onKey($event)" type="text" class="form-control col-12" placeholder="Search">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 image" *ngFor='let gif of gifs.data'>
+      <img class='img-fluid' [src]="gif.images.original.url">
+
+    </div>
+
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>
