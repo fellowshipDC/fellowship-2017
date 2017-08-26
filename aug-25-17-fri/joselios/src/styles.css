@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+#background {
+  background: #1e5799;
+    background: -moz-linear-gradient(top,  #ff6ad5 0%, #c774e8 25%, #ad8cff 75%, #94d0ff 100%);
+    background: -webkit-linear-gradient(top,  #ff6ad5 0%,#c774e8 25%,#ad8cff 75%,#94d0ff 100%);
+    background: linear-gradient(to bottom,  #ff6ad5 0%,#c774e8 25%,#ad8cff 75%,#94d0ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ad5', endColorstr='#94d0ff',GradientType=0 );
+    background-attachment: fixed;
+  }
+
+  /*
+background: #ff6ad5;
+background: -moz-linear-gradient(top,  #ff6ad5 0%, #c774e8 25%, #ad8cff 75%, #94d0ff 100%);
+background: -webkit-linear-gradient(top,  #ff6ad5 0%,#c774e8 25%,#ad8cff 75%,#94d0ff 100%); 
+background: linear-gradient(to bottom,  #ff6ad5 0%,#c774e8 25%,#ad8cff 75%,#94d0ff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ad5', endColorstr='#94d0ff',GradientType=0 );
+
+*/
