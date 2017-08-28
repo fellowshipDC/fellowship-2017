@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="container-fluid text-center ">
+    <h1>{{getTitle()}}</h1>
+        <ul>
+           <a *ngFor="let name of characters.result" [routerLink]="['/home', name]">
+             <li >{{name()}}</li>
+         </a>
+    </ul>
+</div>              
+<app-footer></app-footer>
