@@ -1,6 +1,5 @@
-<div class="container-fluid header text-center">
-    <p>awesome GIFs 🤘</p>
-</div>
+
+<app-titulo title="awesome GIFs 🤘"></app-titulo>
 
 
 <div class="container-fluid">
@@ -13,7 +12,7 @@
   </div>
   <div class="row d-flex text-center gifs">
     <div class="col-4" *ngFor="let gif of gifs.data">
-      <img [src]="gif.images.original.url">
+      <app-gif [url]="gif.images.original.url"></app-gif>
     </div>
   </div>
 </div>

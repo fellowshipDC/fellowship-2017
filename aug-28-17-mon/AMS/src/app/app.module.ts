@@ -1,26 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { TituloComponent } from './titulo/titulo.component';
-import { GifComponent } from './gif/gif.component';
-import { BuscadorComponent } from './buscador/buscador.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { TitleComponent } from './title/title.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ImagenComponent } from './imagen/imagen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TituloComponent,
-    GifComponent,
-    BuscadorComponent
+    NavbarComponent,
+    FooterComponent,
+    TitleComponent,
+    GalleryComponent,
+    ImagenComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
