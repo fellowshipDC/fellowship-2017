@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid header d-flex justify-content-center align-items-center">
+  <div class="row">
+     <p class="col-12">GIFTS😎</p>
+  </div>
+</div>
+<div class="container d-flex justify-content-center align-items-center">
+  <div class="row">
+    <input (keyup)="onKey($event)" type="text"class="form-control col-12 search" placeholder="Search for..." aria-label="q" aria-describedby="q">
+  </div>
+</div>
+<div class="container gifs d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-4 image" *ngFor="let gif of gifs.data">
+        <img class="img-fluid" [src]="gif.images.downsized.url">
+      </div>
+    </div>
+  </div>
+
+
+<router-outlet></router-outlet>
