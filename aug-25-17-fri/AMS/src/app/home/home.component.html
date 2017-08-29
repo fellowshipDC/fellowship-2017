@@ -1,21 +1,6 @@
-<div class="container-fluid header text-center">
-    <p>awesome GIFs 🤘</p>
-</div>
 
+<app-titulo title="awesome GIFs 🤘"></app-titulo>
 
-<div class="container-fluid">
-  <div class = "row search d-flex justify-content-center"> 
-    <div class="col-6">
-      <div class="input-group input-group-lg">
-        <input (keyup)="onKey($event)" type="text" class="form-control" placeholder="Search for..." aria-label="q">
-      </div>
-    </div>
-  </div>
-  <div class="row d-flex text-center gifs">
-    <div class="col-4" *ngFor="let gif of gifs.data">
-      <img [src]="gif.images.original.url">
-    </div>
-  </div>
-</div>
+<app-buscador></app-buscador>
 
 
