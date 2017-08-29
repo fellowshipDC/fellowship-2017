@@ -1,0 +1,7 @@
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-4 d-flex justify-content-center" (click)="url(breed)" *ngFor="let breed of breeds.message">
+        <app-image [breed]="breed"></app-image>
+      </div>           
+  </div>
+</div>
