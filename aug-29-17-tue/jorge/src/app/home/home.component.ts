@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http, Response } from '@angular/http';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  breeds: object;
+
+  constructor(private http: Http) { }
+
+  getBreeds() {
+    this.http
+      .get('https://dog.ceo/api/breeds/list')
+      .subscribe(
+        (res: Response) => this.breeds = res.json()
+      );
+  }
 
   ngOnInit() {
+    this.getBreeds();
   }
 
 }
