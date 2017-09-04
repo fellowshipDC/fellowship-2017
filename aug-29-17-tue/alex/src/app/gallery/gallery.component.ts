@@ -18,6 +18,6 @@ export class GalleryComponent implements OnInit {
   ngOnInit() {
     this.http.get('https://dog.ceo/api/breed/'+this.breed+'/images/random')
     .subscribe((res: Response) => this.breedImage = res.json());
-  }
+  } 
 
 }
