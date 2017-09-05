@@ -9,21 +9,18 @@ import * as d3 from "d3";
 })
 export class InfoComponent implements OnInit {
 
-  data: object;
+  dataSet: any;
 
   constructor(private http: Http) { }
 
-  getData() {
-    this.http.get("https://data.cityofchicago.org/resource/b6tt-rgti.json").subscribe((res: Response) => this.data = res.json());
-  }
+ 
   ngOnInit() {
     this.getData();
-    this.showData();
   }
-
-  showData() {
-    d3.json("https://data.cityofchicago.org/resource/b6tt-rgti.json", function(error,data){ console.log(data)
-    })
+  //Petición mediante D3 para acomodar los datos y almacenarlos en la variable definida dataSet
+  getData() {
+    d3.json("https://data.cityofchicago.org/resource/b6tt-rgti.json", (error, data) => {
+      this.dataSet = data;
+    });
   }
-  
 }

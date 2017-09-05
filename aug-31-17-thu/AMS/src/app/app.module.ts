@@ -11,7 +11,7 @@ import { MediaComponent } from './media/media.component';
 import { TitleComponent } from './title/title.component';
 import { InfoComponent } from './info/info.component';
 import { ContractsComponent } from './contracts/contracts.component';
-import { ButtonComponent } from './button/button.component';
+import { PreviewComponent } from './preview/preview.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { ButtonComponent } from './button/button.component';
     TitleComponent,
     InfoComponent,
     ContractsComponent,
-    ButtonComponent
+    PreviewComponent
   ],
   imports: [
     BrowserModule,

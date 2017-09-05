@@ -1,0 +1,54 @@
+
+div#data-table
+    //Configuración de la fila de títulos    
+    div#variables 
+        //Todas las columnas se muestran en la pantalla y tiene un alto fijo la fila
+        flex-wrap nowrap
+        font-size 13px
+        font-weight 700
+        height 40px
+        //Bordes y ancho fijo de columna
+        div.col
+            width 30px
+            min-height 100%
+            border solid 
+            border-width 0.5px
+            border-color #C8C8C8
+            //El texto termina al final de la columna con 3 puntos suspensivos
+            p
+                white-space nowrap
+                overflow hidden
+                text-overflow ellipsis
+        //Bordes para columna más grande 
+        div.col-2
+            border solid 
+            border-width 0.5px
+            border-color #C8C8C8
+
+    //Filas de datos, todas las columnas se muestran en la pantalla y tiene un alto fijo la fila
+    div.obs
+        flex-wrap nowrap
+        font-size 10px
+        height 32px
+        //Bordes y ancho fijo de columna
+        div.col 
+            width 30px 
+            min-height 100%
+            border solid 
+            border-width 0.5px
+            border-color #C8C8C8 
+            //El texto termina al final de la columna con 3 puntos suspensivos
+            p
+                white-space nowrap
+                overflow hidden
+                text-overflow ellipsis
+        //Bordes para columna más grande 
+        div.col-2 
+            border solid 
+            border-width 0.5px
+            border-color #C8C8C8
+            //El texto termina al final de la columna con 3 puntos suspensivos
+            p
+                white-space nowrap
+                overflow hidden
+                text-overflow ellipsis
