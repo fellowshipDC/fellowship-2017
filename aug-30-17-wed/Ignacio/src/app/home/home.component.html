@@ -1,0 +1,8 @@
+<div class="container-fluid  ">
+  <div class="row">
+        <div class="col border text-center" (click)="url(breed)" *ngFor="let breed of breeds.message">
+             <app-image [breed]="breed" [routerLink]="['/breed', breed]" routerLinkActive="active"  ></app-image>
+        </div>
+  </div>
+</div>
+<app-footer class="footer"></app-footer>
