@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+            <div class="col-4 d-flex justify-content-center" *ngFor="let breed of breeds.message">
+                <a [routerLink]="['/dog', breed]" routerLinkActive="active">
+                    <p (click)="open(breed)">{{breed}}</p>
+                    <app-gallery [breed]= "breed"></app-gallery>
+                </a>
+            </div>
+            
+    
+        <!-- string para el get  
+        <app-gallery [breed]= "'pointer'"></app-gallery>
+
+        -->
+        
+    </div>
+</div>

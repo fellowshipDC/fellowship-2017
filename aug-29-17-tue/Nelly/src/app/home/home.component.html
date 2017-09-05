@@ -1,0 +1,15 @@
+<h1> DOGS Breeds </h1>
+<div class="container-fluid">
+  <div class= "row">
+
+    <ul >
+      <li (click)="url(breed)" *ngFor="let breed of breeds?.message" >
+<app-gallery [breed]="breed"></app-gallery>
+      </li>
+
+</ul>
+
+ <!--string para el get-->
+<app-gallery [breed]="pointer"></app-gallery>
+</div>
+</div>
