@@ -6,9 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { ImageComponent } from './image/image.component';
+
 import { GalleryComponent } from './gallery/gallery.component';
-import { BreedComponent } from './breed/breed.component';
+import { ImageComponent } from './image/image.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { BreedComponent } from './breed/breed.component';
     NavbarComponent,
     ImageComponent,
     GalleryComponent,
-    BreedComponent
+    
   ],
   imports: [
     BrowserModule,
