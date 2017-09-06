@@ -9,6 +9,7 @@ import { Http, Response } from '@angular/http'; //Se importa la clase
 export class HomeComponent implements OnInit {
 
   breeds: object = {};
+  onePicture: any;
 
   constructor(private http: Http) { } // escribir http
 
@@ -19,6 +20,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.getBreeds(); 
+  }
+
+  open(breedName) {
+    console.log(breedName);
   }
 
 }
