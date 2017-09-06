@@ -46,7 +46,10 @@
   <!-- Segunda fila iterar la información, 
     cada columna pide el dato que corresponde al 
     nombre de la columna-->
-  <div class="obs row d-flex align-items-center" *ngFor="let data of dataSet">
+
+  <!--El conjunto de datos(nombrado dataSet) se corta para poder 
+    visualizar solo una parte, para esto se define la variable limit en el ts-->
+  <div class="obs row d-flex align-items-center" *ngFor="let data of dataSet?.slice(0,limit)">
       <div class="col-2">
         <p>{{data.purchase_order_description}}</p>
       </div>

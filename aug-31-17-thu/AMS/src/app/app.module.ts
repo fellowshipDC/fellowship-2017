@@ -12,6 +12,7 @@ import { TitleComponent } from './title/title.component';
 import { InfoComponent } from './info/info.component';
 import { ContractsComponent } from './contracts/contracts.component';
 import { PreviewComponent } from './preview/preview.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PreviewComponent } from './preview/preview.component';
     TitleComponent,
     InfoComponent,
     ContractsComponent,
-    PreviewComponent
+    PreviewComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

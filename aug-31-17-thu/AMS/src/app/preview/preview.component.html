@@ -1,15 +1,19 @@
+<!-- Container de la sección de la tabla, 
+llama componente del título y de la información-->
 <div class="container-fluid preview">
   <div class="row header d-flex align-items-center">
     <div class="col-8 ">
       <app-title title="Table Preview"></app-title>
     </div>
-    <div class="col-4 mr-auto">
-        <button type="button" class="button btn btn-primary">View Data</button>
+    <div class="col-4 text-right">
+        <!--Botón para ir al otro componente y presentar toda la información-->
+        <button (click)="goData()" type="button" class="button btn btn-primary">View Data</button>
     </div>
   </div>
   <div class="row d-flex align-items-center justify-content-center text-center">
       <div class="col-12">
-        <app-info></app-info>
+        <!--Se llama el componente y se limita la información a 15 líneas-->
+        <app-info limit="15"></app-info>
       </div>
     </div>
 </div>

@@ -1,29 +1,37 @@
   <!--Componente texto de la primera sección  -->
 
 <div class="contracts container-fluid">
-  <div class="row d-flex align-items-center">
-    <div class="header col-8">
+  <div class="row header d-flex justify-content-start">
+    <div class=" col">
       <div class="row d-flex">
-        <app-title title="Contracts"></app-title>
-        <p>Administration & Finance</p>
+        <div>
+          <app-title title="Contracts" [size]="30"></app-title>
+        </div>
+        <div class="align-self-end">
+          <p>Administration & Finance</p>
+        </div>
       </div>
     </div>
-    <div class="context col-4 btn-group" role="group">
-      <button id="btnGroupDrop1" type="button" class="btn-primary button dropdown-toggle" data-toggle="dropdown">
-        Explore Data
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Something</a>
-        <a class="dropdown-item" href="#">Something</a>
+    <div class="btn-group ml-auto" role="group">
+      <div class="btn-group">
+        <button id="btnGroupDrop1" type="button" class="btn-primary button dropdown-toggle" data-toggle="dropdown-menu">
+          Explore Data
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Something</a>
+          <a class="dropdown-item" href="#">Something</a>
+        </div>
+        <button type="button" class="button btn">Download</button>
+        <button type="button" class="button btn">API</button>
+        <button type="button" class="button btn">Share</button>
+        <button type="button" class="button btn">...</button>
       </div>
-      <button type="button" class="button btn">Download</button>
-      <button type="button" class="button btn">API</button>
-      <button type="button" class="button btn">Share</button>
-      <button type="button" class="button btn">...</button>
     </div>
+  </div>
+  <div class="row text">
     <div class="text col-8">
       <p>Contracts and modifications awarded by the City of Chicago since 1993. This data is currently maintained in the City’s Financial Management and Purchasing System (FMPS), which is used throughout the City for contract management and payment. 
-          Legacy System Records: Purchase Order/Contract Numbers that begin with alpha characters... More</p>
+         Legacy System Records: Purchase Order/Contract Numbers that begin with alpha characters... <br><a href="">More</a></p>
     </div>
   </div>
 </div>

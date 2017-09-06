@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import * as d3 from "d3";
 
@@ -10,6 +10,10 @@ import * as d3 from "d3";
 export class InfoComponent implements OnInit {
 
   dataSet: any;
+
+  //parámetro recibido del parent component 
+  @Input()
+  limit: number;
 
   constructor(private http: Http) { }
 
