@@ -1,15 +1,11 @@
-<h1> DOGS Breeds </h1>
 <div class="container-fluid">
-  <div class= "row">
-
-    <ul >
-      <li (click)="url(breed)" *ngFor="let breed of breeds?.message" >
-<app-gallery [breed]="breed"></app-gallery>
-      </li>
-
-</ul>
-
- <!--string para el get-->
-<app-gallery [breed]="pointer"></app-gallery>
-</div>
+    <div class="row text-center align-items-center justify-content-center">
+        <div class="col-4" *ngFor= "let breed of breeds.message">
+            <a [routerLink]="['/image', breed]" routerLinkActive="active">
+                <p (click)="open(breed)"></p>
+                <app-gallery [breed]="breed"></app-gallery>
+            </a>
+        </div>
+        <img class="img-fluid" [src]="onePicture.message">
+    </div>
 </div>
