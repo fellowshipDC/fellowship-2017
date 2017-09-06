@@ -1,0 +1,96 @@
+  <!--Componente información de API -->
+
+  <!-- Primera fila es para el nombre de las variables-->
+<div class="container-fluid" id="data-table">
+  <div class="row" id="variables">
+    <div class="col-2">
+      <p>Purchase Order Description</p>
+    </div>
+    <div class="col">
+      <p>Purchase Order (Contract) Number</p>
+    </div>
+    <div class="col ">
+      <p>Revision Number</p>
+    </div>
+    <div class="col ">
+      <p>Specification Number</p>
+    </div>
+    <div class="col ">
+      <p>Start Date</p>
+    </div>
+    <div class="col ">
+      <p>End Date</p>
+    </div>
+    <div class="col">
+      <p>Vendor Name</p>
+    </div>
+    <div class="col">
+      <p>Vendor ID</p>
+    </div>
+    <div class="col">
+      <p>Address 1</p>
+    </div>
+    <div class="col">
+      <p>City</p>
+    </div>
+    <div class="col">
+      <p>State</p>
+    </div>
+    <div class="col">
+      <p>Zip</p>
+    </div>
+    <div class="col">
+        <p>Award Amount</p>
+    </div>
+  </div>
+  <!-- Segunda fila iterar la información, 
+    cada columna pide el dato que corresponde al 
+    nombre de la columna-->
+
+  <!--El conjunto de datos(nombrado dataSet) se corta para poder 
+    visualizar solo una parte, para esto se define la variable limit en el ts-->
+  <div class="obs row d-flex align-items-center" *ngFor="let data of dataSet?.slice(0,limit)">
+      <div class="col-2">
+        <p>{{data.purchase_order_description}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.purchase_order_contract_number}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.revision_number}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.specification_number}}</p>
+      </div>
+      <!--Si hay datos corta la fecha para quedar en formato YYYY/MM/DD-->
+      <div class="col">
+        <p>{{data.start_date?.slice(0,10)}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.end_date?.slice(0,10)}}</p>
+      </div>
+
+
+      <div class="col">
+        <p>{{data.vendor_name}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.vendor_id}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.address_1}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.city}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.state}}</p>
+      </div>
+      <div class="col">
+        <p>{{data.zip}}</p>
+      </div>
+      <div class="col">
+        <p>${{data.award_amount}}</p>
+      </div>
+    </div>
+</div>
