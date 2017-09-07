@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4" *ngFor="let breed of breeds.message">
+            <a [routerLink]="['/image', breed]" routerLinkActive="Active">
+                <p (click)="open(breed)"></p>
+              <app-gallery [breed]= "breed"></app-gallery>
+            </a>
+        </div>
+        <img class="img-fluid imagen" [src]="onePicture.message">
+       </div>
+</div>
+
