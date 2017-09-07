@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {Http, Response} from '@angular/http';
 
+
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
@@ -14,9 +15,12 @@ export class GalleryComponent implements OnInit {
 
   constructor(private http: Http) { }
 
+  getEachBreed(breed){
+    this.http.get('https://dog.ceo/api/breed/'+ breed +'/images/random').subscribe((res: Response) => this.breedImage = res.json())
+  }
+
   ngOnInit() {
-    this.http
-    .get('https://dog.ceo/api/breed/'+ this.breed+'/images/random').subscribe((res:Response)=> this.breedImage = res.json());
+    this.getEachBreed(this.breed)
   }
 
 }

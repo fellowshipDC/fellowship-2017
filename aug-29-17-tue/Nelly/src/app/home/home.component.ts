@@ -8,24 +8,26 @@ import { Http, Response} from '@angular/http';
 })
 export class HomeComponent implements OnInit {
 
-breeds: object={};
-breedImage: string;
+breeds: any;
+breedImage: any;
 
 
   constructor( private http: Http) { }
 
-  url(breed){
-    console.log(breed);
 
-    this.http.get('https://dog.ceo/api/breed/'+breed+'/images/random').subscribe((res:Response)=>this.breedImage=res.json());
-  }
 
 getBreeds(){
-  this.http.get('https://dog.ceo/api/breeds/list').subscribe((res: Response)=>this.breeds = res.json()
+  this.http.get('https://dog.ceo/api/breeds/list')
+  .subscribe((res: Response)=>this.breeds = res.json()
 );
 }
   ngOnInit() {
     this.getBreeds();
+  }
+  open(breedName){
+    console.log(breedName);
+
+
   }
 
 }
