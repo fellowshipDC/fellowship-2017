@@ -9,7 +9,8 @@ import { Http, Response } from '@angular/http';
 export class BuscadorComponent implements OnInit {
 
   q: string;
-  gifs:object;
+  gifs: object[];
+  response: object;
 
   constructor(private http: Http) { }
 
@@ -25,7 +26,10 @@ export class BuscadorComponent implements OnInit {
         rating: 'G',
         lang: 'en'
       }
-    }).subscribe((res: Response) => this.gifs = res.json());
+    }).subscribe((res: Response) => {
+      this.response = res.json();
+      this.gifs = (this.response as any).data;
+    })
   }
 
   ngOnInit() {
@@ -38,7 +42,11 @@ export class BuscadorComponent implements OnInit {
         rating: 'G',
         lang: 'en'
       }
-    }).subscribe((res: Response) => this.gifs = res.json());
+    }).subscribe((res: Response) => {
+      this.response = res.json();
+      this.gifs = (this.response as any).data;
+    })
   }
+  
 
 }
