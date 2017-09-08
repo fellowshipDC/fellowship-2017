@@ -10,6 +10,8 @@ export class ImageComponent implements OnInit {
 
   breedImage: object = {};
   onePicture: object = {};
+  dogPicture: object = {};
+  response: object;
 
   @Input()
   breed: string;
@@ -18,6 +20,8 @@ export class ImageComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('https://dog.ceo/api/breed/'+this.breed+'/images/random').subscribe((res: Response) => this.breedImage = res.json());
+    this.dogPicture = (this.response as any).message;
+  
   }
 
 }
