@@ -10,7 +10,6 @@ import { Http, Response } from '@angular/http';
 export class DogComponent implements OnInit {
 
   breed: string;
-  private sub: any;
   allPictures: any;
 
   constructor(private route: ActivatedRoute, private http: Http) { }
@@ -18,9 +17,9 @@ export class DogComponent implements OnInit {
   getDog(raza){
     this.http.get("https://dog.ceo/api/breed/"+ raza + "/images").subscribe((res: Response) => this.allPictures = res.json());
   }
-
+  
   ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {this.breed = params['breed']});
+    this.route.params.subscribe(params => {this.breed = params['breed']});
     this.getDog(this.breed);
   }
 
