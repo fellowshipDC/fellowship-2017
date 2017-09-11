@@ -1,3 +1,55 @@
-<p>
-  data works!
-</p>
+<div class="main-content">
+  <div class="section-table container d-flex align-items-center justify-content-center align-content-center  ">
+    <div class="container-fluid table-content ">
+        <table class="table table-bordered table-hover table-sm">
+                <thead>
+                  <tr>
+                      <th scope="col" style="width:323.55px;" >Purchase Order Description </th>
+                      <th scope="col" style="width:233.65px;">Purchase Order (Contract) Number</th>
+                      <th scope="col" style="width: 127.117px;">Revision Numbe</th>
+                      <th scope="col" style="width: 153.717px;">Specification Numb</th>
+                      <th scope="col" style="width: 107.85px;">Contract Type</th>
+                      <th scope="col" style="width: 85.3px;">Start Date </th>
+                      <th scope="col" style="width: 81.7333px;">End Date  </th>
+                      <th scope="col" style="width: 107.667px;">Approval Date  </th>
+                      <th scope="col" style="width: 179.817px;">Department </th>
+                      <th scope="col" style="width: 322.983px;">Vendor Name  </th>
+                      <th scope="col" style="width: 83.7667px;">Vendor ID  </th>
+                      <th scope="col" style="width: 184.867px;">Address 1  </th>
+                      <th scope="col" style="width: 115.1px;">Address 2  </th>
+                      <th scope="col" style="width: 94.3333px;">City  </th>
+                      <th scope="col" style="width: 67px;">State   </th>
+                      <th scope="col" style="width: 83.6667px;">Zip </th>
+                      <th scope="col" style="width: 114.45px;">Award Amount  </th>
+                      <th scope="col" style="width: 50.55px;">Procurement Type  </th>
+                      <th scope="col" style="width: 101.383px;">Contract PDF  </th>
+                  </tr>
+                </thead>
+                <tbody >
+                  <tr *ngFor="let data of datos ">
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.purchase_order_description}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.purchase_order_contract_number}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.revision_number}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.specification_number}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.contract_type}}</td>
+                    <td data-cell-render-type="calendar_date" data-cell-alignment="left">{{data.start_date}}</td>
+                    <td data-cell-render-type="calendar_date" data-cell-alignment="left">{{data.end_date}}</td>
+                    <td data-cell-render-type="calendar_date" data-cell-alignment="left">{{data.approval_date}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.department}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.vendor_name}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.address_1}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.address_2}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.city}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.state}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.zip}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.award_amount}}</td>
+                    <td data-cell-render-type="money" data-cell-alignment="left">{{data.procurement_type}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.procurement_type}}</td>
+                    <td data-cell-render-type="text" data-cell-alignment="left">{{data.contract_type}}</td>
+                  </tr>
+                 
+                </tbody>
+        </table>
+    </div>
+  </div>
+</div>
