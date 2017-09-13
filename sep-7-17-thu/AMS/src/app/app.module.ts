@@ -7,6 +7,10 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CustomComponent } from './custom/custom.component';
 import { FeaturesComponent } from './features/features.component';
+import { UsingComponent } from './using/using.component';
+import { NowgoComponent } from './nowgo/nowgo.component';
+import { FooterComponent } from './footer/footer.component';
+import { WhoComponent } from './who/who.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FeaturesComponent } from './features/features.component';
     HeaderComponent,
     NavbarComponent,
     CustomComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    UsingComponent,
+    NowgoComponent,
+    FooterComponent,
+    WhoComponent
   ],
   imports: [
     BrowserModule,
