@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsingComponent implements OnInit {
 
-  let logos = [
+  logos = [
     "http://sailsjs.com/images/homepage_logo_pge.png",
     "http://sailsjs.com/images/homepage_logo_ae.png",
     "http://sailsjs.com/images/homepage_logo_postman.png",
