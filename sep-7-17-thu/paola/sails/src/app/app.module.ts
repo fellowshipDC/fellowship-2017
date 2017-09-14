@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContenunoComponent } from './contenuno/contenuno.component';
+import { ContendosComponent } from './contendos/contendos.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
+import { PrefooterComponent } from './prefooter/prefooter.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ContenunoComponent,
+    ContendosComponent,
+    CarrouselComponent,
+    PrefooterComponent
   ],
   imports: [
     BrowserModule,
