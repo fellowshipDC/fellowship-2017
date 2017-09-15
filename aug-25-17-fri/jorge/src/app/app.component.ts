@@ -7,6 +7,7 @@ import { Http, Response } from '@angular/http';
   styleUrls: ['./app.component.styl']
 })
 export class AppComponent implements OnInit {
+  response: object;
   gifs: object[];
   q: string;
 
@@ -27,7 +28,10 @@ export class AppComponent implements OnInit {
         }
       }
     )
-    .subscribe((res: Response) => this.gifs = res.json());
+    .subscribe((res: Response) => {
+      this.response = res.json();
+      this.gifs = (this.response as any).data;
+    });
   }
 
   ngOnInit() {
