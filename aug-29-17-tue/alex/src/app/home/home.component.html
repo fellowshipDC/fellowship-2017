@@ -1,13 +1,13 @@
 <div class="container-fluid body-gallery">
     <div class="cardWrapper">   
         <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 cardContainer d-flex justify-content-center align-items-center" *ngFor="let breed of breeds.message">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 cardContainer d-flex justify-content-center align-items-center" *ngFor="let breed of breeds?.message">
                     <div class="card">
                         <div class="front">
                             <a [routerLink]="['/dog', breed]" routerLinkActive="active">
-                                <p (click)="open(breed)">{{breed}}</p>
+                                <!--<p (click)="open(breed)">{{breed}}</p>-->
+                                <p>{{breed}}</p>
                                 <app-gallery [breed]= "breed"></app-gallery>
-                               
                             </a>
                         </div>
                     </div>

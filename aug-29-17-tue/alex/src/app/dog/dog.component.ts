@@ -11,12 +11,15 @@ export class DogComponent implements OnInit {
 
   breed: string;
   private sub: any;
-  imagesDogs: object = {};
+  imagesDogs?: any;
+  perritos?: any;
+  response: object;
 
   constructor(private route: ActivatedRoute, private http: Http) { }
 
   getDog(dog){
     this.http.get("https://dog.ceo/api/breed/"+ dog + "/images").subscribe((res: Response) => this.imagesDogs = res.json());
+    this.perritos = (this.response as any).message;
   }
 
   ngOnInit() {

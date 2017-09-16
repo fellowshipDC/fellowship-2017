@@ -8,7 +8,9 @@ import { Http, Response } from '@angular/http';
 })
 export class GalleryComponent implements OnInit {
 
-  breedImage: object = {};
+  breedImage?: any;
+  dogPicture?: any;
+  response: object;
 
   @Input()
   breed: string;
@@ -16,8 +18,8 @@ export class GalleryComponent implements OnInit {
   constructor(private http: Http) { }
 
   ngOnInit() {
-    this.http.get('https://dog.ceo/api/breed/'+this.breed+'/images/random')
-    .subscribe((res: Response) => this.breedImage = res.json());
-  } 
+    this.http.get('https://dog.ceo/api/breed/'+this.breed+'/images/random').subscribe((res: Response) => this.breedImage = res.json());
+    this.dogPicture = (this.response as any).message;
+  }
 
 }

@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Http, Response } from '@angular/http';
 
-import * as $ from 'jquery';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,18 +8,17 @@ import * as $ from 'jquery';
 })
 export class HomeComponent implements OnInit {
 
-  breeds: object = {};
-  breedImage: object = {};
+  breeds?: any;
+  dogName?: any;
+  response: object;
+  onePicture?: any;
+
 
   constructor(private http: Http) { }
 
-  url(breed) {
-    this.http.get('https://dog.ceo/api/breed/'+breed+'/images/random')
-    .subscribe((res: Response) => this.breedImage = res.json());
-  }
-
   getBreeds() {
     this.http.get('https://dog.ceo/api/breeds/list').subscribe((res: Response) => this.breeds = res.json());
+    this.dogName = (this.response as any).message;
   }
   ngOnInit() {
     this.getBreeds();
