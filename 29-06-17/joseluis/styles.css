@@ -185,8 +185,7 @@ width: 230px;
 .btns {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: bor
-    der-box;
+    box-sizing: border-box;
     align-content: center;
 }
 
@@ -201,8 +200,8 @@ width: 230px;
   line-height: 28px;
   border-radius: 5px;
   padding: 15px 20px 0 10px;
-
 }
+
 .buildApp{
   margin: 20px 155px 12px  155px;
   padding: 12px 12px 12px 12px;
