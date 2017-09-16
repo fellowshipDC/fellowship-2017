@@ -1,0 +1,17 @@
+.navbar-brand {
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+nav {
+    font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.form-row {
+    border-radius: 2px;
+}
+
