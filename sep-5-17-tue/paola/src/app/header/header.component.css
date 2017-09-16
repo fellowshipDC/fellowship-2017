@@ -1,0 +1,22 @@
+img {
+    height: 215px;
+    width: 215px;
+}
+
+.subheader {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #42b983;
+}
+
+.container-fluid {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
