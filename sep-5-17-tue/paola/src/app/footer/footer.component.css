@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color: #727F80;
+    padding-top: 40px;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 56.5px;
+    margin-bottom: 30px;
+}
