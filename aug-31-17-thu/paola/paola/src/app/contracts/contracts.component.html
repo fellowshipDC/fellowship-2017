@@ -1,7 +1,9 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12" *ngFor="let elemento of tabla">
-          <h1>City: {{elemento.street_name}} </h1>
+        <div class="col-2" *ngFor="let elemento of tabla">
+                <h4>Street name</h4>
+                <table>{{elemento.street_name}}</table>
+              </div>
         </div>
     </div>
-</div>
+
