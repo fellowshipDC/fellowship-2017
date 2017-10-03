@@ -15,3 +15,10 @@ nav {
     border-radius: 2px;
 }
 
+input {
+    border-radius: 15px;
+    margin-right: 10px;
+    background: #fff url("https://vuejs.org/images/search.png") 8px 5px no-repeat;
+    background-size: 20px;
+
+}
