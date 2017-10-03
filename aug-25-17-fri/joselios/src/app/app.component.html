@@ -1,23 +1,22 @@
 <div class="container header d-flex  justify-content-center align-items-center">
   <div class="row">
-    <p class="col-12">Ｄｏｇｇｏ　Ｇｉｆｓ</p>
+    <p class="col-12 titulo">D a n k  G i f s</p>
   </div>
 </div>
 
 <div class="container search d-flex align-items-center  justify-content-center">
   <div class="row">
-    <input (keyup)="onKey($event)" type="text" class="form-control col-12" placeholder="Only Doggos plz..." aria-label="q" aria-describedby="q">
+    <input (keyup)="onKey($event)" type="text" class="form-control col-12" placeholder="Search..." aria-label="q" aria-describedby="q">
   </div>
 </div>
 
 <div class="container gifs d-flex justify-content-center align-content-center">
   <div class="row">
-      <div class="col-4 image" *ngFor="let gif of gifs.data">
+      <div class="col-4 image" *ngFor="let gif of gifs">
           <img class="img-fluid" [src]="gif.images.original.url">
       </div>
   </div>
 </div>
-
 
 <!--
 <div class="container search d-flex align-items-center">

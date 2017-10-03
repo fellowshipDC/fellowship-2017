@@ -1,0 +1,18 @@
+nav { 
+background-color :#F3F2F1;
+margin-bottom: 20px;
+padding-top: 15px;
+}
+
+.img {
+ width : 220px;
+}
+ 
+ul {
+ display : inline-block;
+ list-style : none;
+}
+
+button {
+    margin-top: 15px;
+}

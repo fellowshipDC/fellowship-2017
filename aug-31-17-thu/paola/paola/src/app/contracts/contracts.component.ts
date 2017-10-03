@@ -13,8 +13,7 @@ export class ContractsComponent implements OnInit {
   tabla: object;
 
   constructor() {}
-  
-  ngOnInit() {
+    ngOnInit() {
     d3.json('https://data.cityofchicago.org/resource/ydr8-5enu.json',
     (error, data) => this.tabla = (data));
   }
