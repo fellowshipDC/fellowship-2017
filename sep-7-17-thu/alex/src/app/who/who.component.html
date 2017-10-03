@@ -1,0 +1,59 @@
+<div class="using container-fluid">
+  <div class="row d-flex justify-content-center align-items-center text-center">
+    <div class="col-md-8">
+      <h2>Who's using Sails?</h2>
+      <p>Companies large and small have built all kinds of cool things on Sails:</p>
+    </div>
+  </div>
+  <div class="carousel slide full" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-2" *ngFor="let img of logos.slice(0,12)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-2" *ngFor="let img of logos.slice(12)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel slide small" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-8" *ngFor="let img of logos.slice(0,4)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-8" *ngFor="let img of logos.slice(4,8)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-8" *ngFor="let img of logos.slice(8,12)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row car d-flex justify-content-center">
+          <div class="col-8" *ngFor="let img of logos.slice(12)">
+            <app-imagecarrusel [url]="img"></app-imagecarrusel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

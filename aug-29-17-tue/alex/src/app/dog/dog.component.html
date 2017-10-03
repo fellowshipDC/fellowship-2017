@@ -1,6 +1,6 @@
-<div class="container-fluid gallery">
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="col-2 text-center" *ngFor = "let url of imagesDogs.message">
+<div class="container gallery">
+    <div class="row">
+      <div class="text-center col-lg-3 col-md-4 col-sm-6 col-xs-6 d-flex justify-content-center align-items-center" *ngFor = "let url of imagesDogs.message">
         <img src='{{url}}'>
       </div>
     </div>

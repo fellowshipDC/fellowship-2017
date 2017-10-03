@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row d-flex text-center gifs">
-        <div class="col-4" *ngFor="let gif of gifs.data">
+        <div class="col-4" *ngFor="let gif of gifs">
           <app-gif [url]="gif.images.original.url"></app-gif>
         </div>
       </div>

@@ -1,0 +1,65 @@
+.container-fluid {
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+
+}
+
+.stdlib {
+    height: 56.59px;
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.logo1 {
+    height: 22.16px;
+    width: 130px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.logo2 {
+    height: 24px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.logo3 {
+    height: 34px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.logo4 {
+    height: 11px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+.logo5 {
+    height: 23.28px;
+    width: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 30px; 
+}
+
+.p1 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
