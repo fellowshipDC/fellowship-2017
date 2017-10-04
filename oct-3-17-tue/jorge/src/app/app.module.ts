@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NellyComponent } from './nelly/nelly.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NellyComponent
   ],
   imports: [
     BrowserModule,
