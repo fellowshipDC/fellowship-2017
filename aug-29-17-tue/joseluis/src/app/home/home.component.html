@@ -1,0 +1,40 @@
+<!--<div class="container">
+  <div class="row text-center align-items-center justify-content-center">
+        <div class="col-3 text-center" (click)="url(raza)" *ngFor="let raza of razas.message">
+             <app-gallery [raza]="raza" [routerLink]="['/raza', raza]" routerLinkActive="active"></app-gallery>
+        </div>
+  </div>
+</div>-->
+
+<!--
+<div class="container-fluid">
+    <div class="row text-center align-items-center justify-content-center">
+        <div class="col-6" (click)="url(doggo)" *ngFor= "let raza of razas.message">
+          <p (click)="open(raza)">{{doggo}}</p>
+          <app-gallery [raza]="raza" [routerLink]="['/raza', raza]" routerLinkActive="active"></app-gallery>            
+        </div>
+        <img class="img-fluid imagen" [src]="razas.message">
+    </div>
+</div>
+-->
+
+<div class="container-fluid">
+    <div class="row text-center align-items-center justify-content-center">
+        <div class="col-md-4 col-sm-12" *ngFor= "let raza of razas.message">
+          <a [routerLink]="['/raza', raza]" routerLinkActive="active">
+          <p> {{ raza }} </p>
+          </a>
+          <app-gallery [raza]="raza"></app-gallery>            
+        </div>
+        <!--<img class="img-fluid" [src]="fotosperritos.message">-->
+        <img class = "img-fluid" src = "{{ fotosperritos?.message }}"/>
+    </div>
+</div>
+
+
+
+
+
+
+
+
