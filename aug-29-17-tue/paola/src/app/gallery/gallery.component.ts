@@ -7,7 +7,7 @@ import { Http, Response } from '@angular/http';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements OnInit {
-  breedImage: object = {};
+  breedImage?: any;
 
   @Input ()
   breed: string;
