@@ -13,10 +13,12 @@ export class HomeComponent implements OnInit {
   constructor(private http:Http) { }
 
   ngOnInit() {
-    this.http.get("http://api.harvardartmuseums.org/culture",
+    this.http.get("https://api.collection.cooperhewitt.org/rest/",
   {
     params: {
-      'api-key':'2237e3f0-88f6-11e7-9655-1922e29f6460'
+      method: 'cooperhewitt.colors.palettes.getInfo',
+      access_token:'0f32f939e11d25369ed3fdde8e6757da',
+      palette: 'black'
     }
   }
 ).subscribe((res: Response) => this.culture =res.json());

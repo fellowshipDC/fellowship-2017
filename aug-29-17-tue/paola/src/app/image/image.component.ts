@@ -9,9 +9,9 @@ import { Http, Response } from '@angular/http';
 })
 export class ImageComponent implements OnInit {
 
-  private breed;
-  private dog: any;
-  private pictures: any;
+  breed;
+  dog: any;
+  pictures: any;
 
   constructor(private route: ActivatedRoute, private http: Http) { }
 
