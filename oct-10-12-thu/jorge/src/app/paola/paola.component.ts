@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as d3 from 'd3';
 
 @Component({
   selector: 'app-paola',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./paola.component.styl']
 })
 export class PaolaComponent implements OnInit {
-
-  constructor() { }
+  title = 'app';
 
   ngOnInit() {
+    d3.select('svg')
+    .attr('width', 150)
+    .attr('height', 100)
+    .style('background-color', '#006AA7')
+    
   }
+
 
 }
