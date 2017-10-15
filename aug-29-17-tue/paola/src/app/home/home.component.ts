@@ -10,8 +10,8 @@ import {Http, Response} from '@angular/http';
 })
 export class HomeComponent implements OnInit {
 
-  breeds: object= {};
-  breedImage: object= {};
+  breeds?: any;
+  breedImage?: any;
 
   constructor(private http: Http) { }
    getBreeds() {
@@ -26,12 +26,3 @@ open(breedName) {
   console.log(breedName);
 }
 }
-
-
-  //url(breed) {
-  //console.log(breed);
-  //this.http
-  //.get('https://dog.ceo/api/breed/' + breed + '/images/random')
-  //.subscribe((res: Response) => this.breedImage = res.json()
-//);
-//} 
