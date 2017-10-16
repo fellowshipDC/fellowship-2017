@@ -20,39 +20,28 @@ export class AppComponent implements OnInit {
       .attr('r', 25)
       .attr('fill', 'red')
       .attr('stroke', 'red');
-      d3.select('#suiz')
-      .attr('width', 150)
-      .attr('height', 100)
-      .style('background-color', '#d2232c')
-      .append('rect')
-      .attr('x', 50)
-      .attr('y', 35)
-      .attr('width', 50)
-      .attr('height', 20)
-      .attr('fill', 'white')
-      .append('rect')
-      .attr('x', 20)
-      .attr('y', 10)
-      .attr('width', 50)
-      .attr('height', 20)
-      .attr('fill', 'black');
 let sz;
-  sz = d3.select('#suiza div')
+  sz = d3.select('#suiza')
     .append('svg')
-    .attr('width', '400')
-    .attr('height', '300');
+    .attr('width', 150)
+    .attr('height', 100);
   sz.append('rect')
-    .attr('x', '150')
-    .attr('y', '140')
-    .attr('width', '100')
-    .attr('height', '20')
-    .style('fill', 'white');
+    .attr('width', 150)
+    .attr('height', 100)
+    .attr('fill', 'red');
+
+  sz.append('rect')
+    .attr('x', 50)
+    .attr('y', 40)
+    .attr('width', 55)
+    .attr('height', 15)
+    .attr('fill', 'white');
   sz
     .append('rect')
-    .attr('x', '190')
-    .attr('y', '110')
-    .attr('width', '20')
-    .attr('height', '80')
-    .style('fill', 'white');
+    .attr('x', 70)
+    .attr('y', 20)
+    .attr('width', 15)
+    .attr('height', 55)
+    .attr('fill', 'white');
     }
   }
