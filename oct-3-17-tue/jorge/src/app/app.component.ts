@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
       this.data = data;
       console.log(data);
 
-      d3.select('div')
+     d3.select('div')
       .selectAll('p')
       .data(this.data)
       .enter()
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
       .text(function(d: any) { return d.annual_salary; })
       .style('font-size', function(d: any) { return d.annual_salary / 300 + 'px'; })
       .style('color', 'red');
-    });
+
 
     /*d3.select('p')
       .style('color', 'red')
@@ -36,6 +36,7 @@ export class AppComponent implements OnInit {
       .enter()
       .exit()
       .append('p');*/
-  }
 
+    });
+  }
 }
