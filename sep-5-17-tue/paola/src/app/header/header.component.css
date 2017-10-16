@@ -19,4 +19,25 @@ h2 {
 
 .container-fluid {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    padding-top: 40px;
+}
+
+.btn-green {
+    background-color: #4FC08D;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 30px;
+    color: white;
+    width: 174px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.btn-outline-success {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 30px;
+    width: 174px;
+    height: 45px;
+    border-radius: 15px; 
 }
