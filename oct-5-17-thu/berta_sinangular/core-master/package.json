@@ -1,0 +1,74 @@
+{
+  "name": "@dboxjs/core",
+  "version": "0.0.7",
+  "description": "A library to create easy reusable charts",
+  "main": "dist/dbox.js",
+  "module": "dist/dbox.mjs",
+  "jsnext:main": "dist/dbox.mjs",
+  "scripts": {
+    "eslint": "eslint -c .eslintrc lib test",
+    "build": "rollup -c && uglifyjs ./dist/dbox.js -c -m -o ./dist/dbox.min.js",
+    "dev": "rollup -c rollup.config.dev.js -w",
+    "pretest": "npm run build",
+    "test": "mocha",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dboxjs/core.git"
+  },
+  "keywords": [
+    "d3",
+    "charts",
+    "dataviz",
+    "dbox",
+    "dboxjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dboxjs/dbox/issues"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "docs"
+  ],
+  "homepage": "https://github.com/dboxjs/dbox#readme",
+  "dependencies": {
+    "cartodb": "^0.5.1",
+    "d3": "^4.6.0",
+    "d3-queue": "^3.0.3",
+    "d3-tip": "^0.7.1",
+    "lodash": "^4.17.4",
+    "textures": "^1.0.4",
+    "topojson": "^2.2.0"
+  },
+  "devDependencies": {
+    "@dboxjs/bars": "0.x",
+    "@dboxjs/heatmap": "0.x",
+    "@dboxjs/radar": "0.x",
+    "@dboxjs/scatter": "0.x",
+    "@dboxjs/timeline": "0.x",
+    "@dboxjs/treemap": "0.x",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.18.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint": "^3.12.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-phantomjs": "^4.1.0",
+    "rollup": "^0.37.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-istanbul": "^1.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^2.5.0",
+    "uglify-js": "^2.8.10"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
+}
