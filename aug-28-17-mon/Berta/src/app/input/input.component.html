@@ -1,0 +1,14 @@
+<div class="container-fluid gallery">
+  <div class="row">
+    <div class="col-12">
+      <input (keyup)="onKey($event)" type="text" class="form-control col-12" placeholder="Search for..." aria-label="q" aria-describedby="q">
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4" *ngFor="let gif of gifs?.data">
+        <app-gifs [url]="gif.images.original.url"></app-gifs>
+      </div>
+    </div>
+  </div>
+</div>
