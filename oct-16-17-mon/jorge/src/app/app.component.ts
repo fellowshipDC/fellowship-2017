@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     d3.select('#d3').append('circle').attr('cx', this.datos[0]).attr('cy', this.datos[0])
     .attr('r', this.datos[0] / 5)
-    .attr('fill', '#c23d45');
+    .attr('fill', '#c23d45'); 
   }
 }
