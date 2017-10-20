@@ -1,7 +1,0 @@
-/node_modules
-/dist
-/coverage
-
-rollup.config.dev.js
-*.log
-.DS_Store
