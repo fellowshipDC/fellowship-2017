@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TreemapComponent } from './treemap/treemap.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TreemapComponent
   ],
   imports: [
     BrowserModule,
