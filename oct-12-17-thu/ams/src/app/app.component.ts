@@ -237,5 +237,124 @@ export class AppComponent implements OnInit {
         .attr('stroke-width', 4)
         .attr('fill', '#C1272D')
         .attr('d', 'M 125 50 L 110 97 L 147 69 L 100 69 L 140 97 L 124 50');
+
+    var panama = d3.select('#panama');
+
+      var pn = panama
+        .append('svg')
+        .attr('width', 250)
+        .attr('height', 150);
+
+      pn.append('rect')
+        .attr('width', 125)
+        .attr('height', 75)
+        .attr('fill','#005293')
+        .attr('x', 0)
+        .attr('y', 75);
+
+      pn.append('rect')
+        .attr('width', 125)
+        .attr('height', 75)
+        .attr('fill','#D21034')
+        .attr('x', 125)
+        .attr('y', 0);
+
+      pn.append('path')
+        .attr('fill', '#D21034')
+        .attr('d', 'M 187 100 L 178 125 L 201 109 L173 109 L 196 125');
+
+      pn.append('path')
+        .attr('fill', '#005293')
+        .attr('d', 'M 62 25 L 53 50 L 76 34 L 48 34 L 71 50');
+
+    var vietnam = d3.select('#vietnam');
+
+      var vt = vietnam
+        .append('svg')
+        .attr('width', 250)
+        .attr('height', 150);
+
+      vt.append('rect')
+        .attr('width', 250)
+        .attr('height', 150)
+        .attr('fill','#DA251D');
+        
+      vt.append('path')
+        .attr('fill', '#FFFF00')
+        .attr('d', 'M 125 38 L 100 110 L 164 65 L 85 65 L 150 110');
+
+    var cuba = d3.select('#cuba');
+
+      var cb = cuba
+        .append('svg')
+        .attr('width', 250)
+        .attr('height', 150);
+
+      cb.append('rect')
+        .attr('width', 250)
+        .attr('height', 30)
+        .attr('fill','#002A8F')
+
+      cb.append('rect')
+        .attr('width', 250)
+        .attr('height', 30)
+        .attr('fill','#ffffff')
+        .attr('x', 0)
+        .attr('y', 30);
+
+      cb.append('rect')
+        .attr('width', 250)
+        .attr('height', 30)
+        .attr('fill','#002A8F')
+        .attr('x', 0)
+        .attr('y', 60);
+
+      cb.append('rect')
+        .attr('width', 250)
+        .attr('height', 30)
+        .attr('fill','#ffffff')
+        .attr('x', 0)
+        .attr('y', 90);
+
+      cb.append('rect')
+        .attr('width', 250)
+        .attr('height', 30)
+        .attr('fill','#002A8F')
+        .attr('x', 0)
+        .attr('y', 120);
+
+      cb.append('path')
+        .attr('fill', '#CF142B')
+        .attr('d', 'M 0 0 L 100 75 L 0 150');
+
+      cb.append('path')
+        .attr('fill', '#ffffff')
+        .attr('d', 'M 34 53 L 22 91 L 52 68 L 16 68 L 46 91');
+
+    var italia = d3.select('#italia')
+
+      var tl = italia
+        .append('svg')
+        .attr('width', 250)
+        .attr('height', 150);
+
+      tl.append('rect')
+        .attr('width', 83.3)
+        .attr('height', 150)
+        .attr('fill','#009246');
+
+      tl.append('rect')
+        .attr('width', 83.3)
+        .attr('height', 150)
+        .attr('fill','#ffffff')
+        .attr('x', 83.3)
+        .attr('y', 0);
+
+      tl.append('rect')
+        .attr('width', 83.3)
+        .attr('height', 150)
+        .attr('fill','#CE2B37')
+        .attr('x', 166.6)
+        .attr('y', 0);
   }
 }
