@@ -1,0 +1,16 @@
+{
+  "name": "ams",
+  "version": "1.0.0",
+  "description": "express tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "csvtojson": "^1.1.9",
+    "express": "^4.16.2"
+  }
+}
