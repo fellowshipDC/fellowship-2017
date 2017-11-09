@@ -31,7 +31,7 @@ export class TreemapComponent implements OnInit {
       .bindTo('#treemap')
       .data({'tsv':'/assets/treemap.tsv'})
       .layer(dbox.treemap)
-      .nestBy(['variable','category','subcategory'])
+      .nestBy(['category','subcategory'])
       .size('number')
       .format(',.0f')
       .end()
